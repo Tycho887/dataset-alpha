@@ -1,0 +1,16 @@
+{
+  "name": "haip",
+  "type": "html",
+  "url": "https://openid.github.io/OpenID4VC-HAIP/openid4vc-high-assurance-interoperability-profile-wg-draft.html",
+  "download_date": "2026-03-14T20:10:39.307269",
+  "stability": "dynamic_medium",
+  "version_date": "2025-11-19",
+  "original_source": {
+    "name": "haip",
+    "type": "html",
+    "url": "https://openid.github.io/OpenID4VC-HAIP/openid4vc-high-assurance-interoperability-profile-wg-draft.html",
+    "version_date": "2025-11-19",
+    "output_format": "html",
+    "stability": "dynamic_medium"
+  }
+}

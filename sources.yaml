@@ -1,0 +1,35 @@
+sources:
+    - name: "openid4vci"
+      type: "html"
+      url: "https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html"
+      version_date: "2024-11-15"
+      output_format: "html"
+      stability: "dynamic_low"
+
+    - name: "haip"
+      type: "html"
+      url: "https://openid.github.io/OpenID4VC-HAIP/openid4vc-high-assurance-interoperability-profile-wg-draft.html"
+      version_date: "2025-11-19"
+      output_format: "html"
+      stability: "dynamic_medium"
+
+    - name: "sd-jwt-vc-draft"
+      type: "github"
+      repo_url: "https://github.com/oauth-wg/oauth-sd-jwt-vc.git"
+      branch: "main"
+      file_pattern: "*.md" # Only extract markdown files
+      stability: "highly_dynamic"
+
+    - name: "eidas2_regulation"
+      type: "pdf"
+      url: "https://www.europarl.europa.eu/doceo/document/TA-9-2024-0117_EN.pdf"
+      version_date: "2024-02-29"
+      output_format: "pdf"
+      stability: "static"
+
+    - name: "arf_repo"
+      type: "github"
+      repo_url: "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework.git"
+      branch: "main"
+      file_pattern: "*.*"
+      stability: "highly_dynamic"

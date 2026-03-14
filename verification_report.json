@@ -1,0 +1,108 @@
+{
+  "total_documents": 7,
+  "documents_with_issues": 4,
+  "issue_counts": {
+    "missing_expected_keywords": 4
+  },
+  "lcs_stats": {
+    "mean": 0.9767731161620392,
+    "std": 0.005606993788644876,
+    "min": 0.9711661223733944,
+    "max": 0.9823801099506841,
+    "quartiles": [
+      0.9739696192677169,
+      0.9767731161620392,
+      0.9795766130563617
+    ]
+  },
+  "alphanumeric_stats": {
+    "mean": 0.7639757389812173,
+    "std": 0.022352697868278492
+  },
+  "details": [
+    {
+      "id": "sd-jwt-vc-draft_README_8ed09ac59ff77eb6",
+      "document_name": "sd-jwt-vc-draft",
+      "stability": "highly_dynamic",
+      "content_length": 1178,
+      "quality_issues": [
+        "missing_expected_keywords"
+      ],
+      "alphanumeric_ratio": 0.7572156196943973,
+      "missing_keywords": [
+        "selective",
+        "disclosure"
+      ]
+    },
+    {
+      "id": "sd-jwt-vc-draft_draft-ietf-oauth-sd-jwt-vc_49dfb63e7eb65b0d",
+      "document_name": "sd-jwt-vc-draft",
+      "stability": "highly_dynamic",
+      "content_length": 78911,
+      "quality_issues": [],
+      "alphanumeric_ratio": 0.7510233047357149
+    },
+    {
+      "id": "sd-jwt-vc-draft_CONTRIBUTING_f6ef82462d5d6f8e",
+      "document_name": "sd-jwt-vc-draft",
+      "stability": "highly_dynamic",
+      "content_length": 1566,
+      "quality_issues": [
+        "missing_expected_keywords"
+      ],
+      "alphanumeric_ratio": 0.7848020434227331,
+      "missing_keywords": [
+        "selective",
+        "disclosure",
+        "jwt"
+      ]
+    },
+    {
+      "id": "sd-jwt-vc-draft_LICENSE_e9a5e6bffe385d54",
+      "document_name": "sd-jwt-vc-draft",
+      "stability": "highly_dynamic",
+      "content_length": 122,
+      "quality_issues": [
+        "missing_expected_keywords"
+      ],
+      "alphanumeric_ratio": 0.7704918032786885,
+      "missing_keywords": [
+        "selective",
+        "disclosure"
+      ]
+    },
+    {
+      "id": "eidas2_regulation_eidas2_regulation_2024-02-29_a92fe2c0a578682e",
+      "document_name": "eidas2_regulation",
+      "stability": "static",
+      "content_length": 5741,
+      "quality_issues": [
+        "missing_expected_keywords"
+      ],
+      "alphanumeric_ratio": 0.804215293502874,
+      "missing_keywords": [
+        "eidas",
+        "electronic",
+        "identification"
+      ]
+    },
+    {
+      "id": "openid4vci_openid4vci_2024-11-15_8743f14beceb4254",
+      "document_name": "openid4vci",
+      "stability": "dynamic_low",
+      "content_length": 285412,
+      "quality_issues": [],
+      "alphanumeric_ratio": 0.7354105643771109,
+      "lcs": 0.9823801099506841
+    },
+    {
+      "id": "haip_haip_2025-11-19_7fc75e5093fb8198",
+      "document_name": "haip",
+      "stability": "dynamic_medium",
+      "content_length": 66295,
+      "quality_issues": [],
+      "alphanumeric_ratio": 0.7446715438570027,
+      "lcs": 0.9711661223733944
+    }
+  ]
+}
