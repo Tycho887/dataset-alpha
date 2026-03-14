@@ -1,0 +1,602 @@
+[
+  {
+    "name": "eudi-lib-kmp-etsi-1196x2",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-kmp-etsi-1196x2",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-kmp-etsi-1196x2.git",
+    "default_branch": "main",
+    "description": "A kotlin library for verifying certificate chains using trusted lists",
+    "language": "Kotlin",
+    "updated_at": "2026-03-14T17:48:13Z",
+    "size": 420
+  },
+  {
+    "name": "eudi-app-android-wallet-ui",
+    "full_name": "eu-digital-identity-wallet/eudi-app-android-wallet-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui.git",
+    "default_branch": "main",
+    "description": "EUDI Wallet Prototype",
+    "language": "Kotlin",
+    "updated_at": "2026-03-14T13:04:28Z",
+    "size": 236465
+  },
+  {
+    "name": "eudi-srv-issuer-oidc-py",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-issuer-oidc-py",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-issuer-oidc-py.git",
+    "default_branch": "main",
+    "description": "Issuer Authorisation backend server",
+    "language": "Python",
+    "updated_at": "2026-03-13T19:48:15Z",
+    "size": 51
+  },
+  {
+    "name": "eudi-srv-verifier-endpoint",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-verifier-endpoint",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-verifier-endpoint.git",
+    "default_branch": "main",
+    "description": "Web application (Backend Restful service) that acts as a Verifier/RP trusted end-point.",
+    "language": "Kotlin",
+    "updated_at": "2026-03-13T13:03:19Z",
+    "size": 1634
+  },
+  {
+    "name": "eudi-srv-pid-issuer",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-pid-issuer",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-pid-issuer.git",
+    "default_branch": "main",
+    "description": "A micro-service acting like PID/mDL Issuer according to OpenID4VCI",
+    "language": "Kotlin",
+    "updated_at": "2026-03-13T11:43:54Z",
+    "size": 1779
+  },
+  {
+    "name": "eudi-lib-ios-wallet-storage",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-wallet-storage",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-wallet-storage.git",
+    "default_branch": "main",
+    "description": "Eudi Wallet storage library",
+    "language": "Swift",
+    "updated_at": "2026-03-13T08:31:46Z",
+    "size": 1051
+  },
+  {
+    "name": "av-app-ios-wallet-ui",
+    "full_name": "eu-digital-identity-wallet/av-app-ios-wallet-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-app-ios-wallet-ui.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Swift",
+    "updated_at": "2026-03-12T20:50:08Z",
+    "size": 366192
+  },
+  {
+    "name": "eudi-lib-ios-rqes-ui",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-rqes-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-rqes-ui.git",
+    "default_branch": "main",
+    "description": "EUDI Remote Qualified Electronic Signature (RQES) UI library for iOS",
+    "language": "Swift",
+    "updated_at": "2026-03-12T10:11:31Z",
+    "size": 59450
+  },
+  {
+    "name": "eudi-app-ios-wallet-ui",
+    "full_name": "eu-digital-identity-wallet/eudi-app-ios-wallet-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui.git",
+    "default_branch": "main",
+    "description": "EUDI Wallet Prototype",
+    "language": "Swift",
+    "updated_at": "2026-03-12T10:07:51Z",
+    "size": 348011
+  },
+  {
+    "name": "eudi-lib-sdjwt-swift",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-sdjwt-swift",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-sdjwt-swift.git",
+    "default_branch": "main",
+    "description": "A library for issuing and verifying SD-JWT",
+    "language": "Swift",
+    "updated_at": "2026-03-12T09:29:20Z",
+    "size": 3259
+  },
+  {
+    "name": "eudi-lib-ios-wallet-kit",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-wallet-kit",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-wallet-kit.git",
+    "default_branch": "main",
+    "description": "This repository contains the EUDI Wallet Kit library for iOS. The library is a part of the EUDI Wallet Reference Implementation project.",
+    "language": "Swift",
+    "updated_at": "2026-03-12T08:03:06Z",
+    "size": 6472
+  },
+  {
+    "name": "eudi-lib-ios-openid4vci-swift",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-openid4vci-swift",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-openid4vci-swift.git",
+    "default_branch": "main",
+    "description": "Implementation of OpenID for Verifiable Credential Issuance protocol (wallet's role) in Swift",
+    "language": "Swift",
+    "updated_at": "2026-03-12T07:24:45Z",
+    "size": 1138
+  },
+  {
+    "name": "eudi-lib-android-rqes-ui",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-android-rqes-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-android-rqes-ui.git",
+    "default_branch": "main",
+    "description": "EUDI Remote Qualified Electronic Signature (RQES) UI library for Android",
+    "language": "Kotlin",
+    "updated_at": "2026-03-12T06:37:25Z",
+    "size": 1364
+  },
+  {
+    "name": "eudi-app-multiplatform-verifier-ui",
+    "full_name": "eu-digital-identity-wallet/eudi-app-multiplatform-verifier-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-app-multiplatform-verifier-ui.git",
+    "default_branch": "main",
+    "description": "EUDI Multiplatform Verifier App",
+    "language": "Kotlin",
+    "updated_at": "2026-03-12T06:32:51Z",
+    "size": 1202
+  },
+  {
+    "name": "eudi-lib-jvm-sdjwt-kt",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-jvm-sdjwt-kt",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-sdjwt-kt.git",
+    "default_branch": "main",
+    "description": "A library for issuing and verifying SD-JWT",
+    "language": "Kotlin",
+    "updated_at": "2026-03-11T11:00:13Z",
+    "size": 1503
+  },
+  {
+    "name": "eudi-lib-ios-iso18013-data-transfer",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-iso18013-data-transfer",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-iso18013-data-transfer.git",
+    "default_branch": "main",
+    "description": "EUDI ISO 18013-5 iOS Data Transfer library according to ISO/IEC 18013-5 standard",
+    "language": "Swift",
+    "updated_at": "2026-03-11T10:44:02Z",
+    "size": 1443
+  },
+  {
+    "name": "eudi-lib-ios-iso18013-security",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-iso18013-security",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-iso18013-security.git",
+    "default_branch": "main",
+    "description": "Implementation of mDoc security mechanisms according to ISO/IEC 18013-5 standard",
+    "language": "Swift",
+    "updated_at": "2026-03-11T10:39:11Z",
+    "size": 1674
+  },
+  {
+    "name": "av-lib-ios-w3c-dc-api",
+    "full_name": "eu-digital-identity-wallet/av-lib-ios-w3c-dc-api",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-lib-ios-w3c-dc-api.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Swift",
+    "updated_at": "2026-03-11T10:18:28Z",
+    "size": 56
+  },
+  {
+    "name": "eudi-lib-ios-iso18013-data-model",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-iso18013-data-model",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-iso18013-data-model.git",
+    "default_branch": "main",
+    "description": "Implementation of the mDoc data model according to ISO/IEC 18013-5 standard",
+    "language": "Swift",
+    "updated_at": "2026-03-11T10:14:43Z",
+    "size": 9440
+  },
+  {
+    "name": "eudi-lib-jvm-openid4vp-kt",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-jvm-openid4vp-kt",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-openid4vp-kt.git",
+    "default_branch": "main",
+    "description": "Implementation of OpenID4VP protocol (wallet's role) in Kotlin",
+    "language": "Kotlin",
+    "updated_at": "2026-03-11T08:17:34Z",
+    "size": 1478
+  },
+  {
+    "name": "eudi-lib-kmp-statium",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-kmp-statium",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-kmp-statium.git",
+    "default_branch": "main",
+    "description": "A library for cheking the status of a credential in Kotlin multiplatform, supporting Token Status List specification",
+    "language": "Kotlin",
+    "updated_at": "2026-03-11T07:56:52Z",
+    "size": 254
+  },
+  {
+    "name": "av-lib-ios-longfellow-zkp",
+    "full_name": "eu-digital-identity-wallet/av-lib-ios-longfellow-zkp",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-lib-ios-longfellow-zkp.git",
+    "default_branch": "main",
+    "description": "A Swift library for zero-knowledge proof (ZKP) generation and verification of mdoc credentials using the Longfellow ZK system.",
+    "language": "Swift",
+    "updated_at": "2026-03-10T16:07:33Z",
+    "size": 1954
+  },
+  {
+    "name": "eudi-lib-android-wallet-core",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-android-wallet-core",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-android-wallet-core.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Kotlin",
+    "updated_at": "2026-03-10T10:37:25Z",
+    "size": 3162
+  },
+  {
+    "name": "av-srv-web-issuing-avw-py",
+    "full_name": "eu-digital-identity-wallet/av-srv-web-issuing-avw-py",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-srv-web-issuing-avw-py.git",
+    "default_branch": "main",
+    "description": "APIs and code of the av provider backend issuer following OID4VCI",
+    "language": "Python",
+    "updated_at": "2026-03-10T10:23:52Z",
+    "size": 19204
+  },
+  {
+    "name": "eudi-lib-ios-rqes-csc-swift",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-rqes-csc-swift",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-rqes-csc-swift.git",
+    "default_branch": "main",
+    "description": "Implementation of CSC protocol (wallet's role) in Swift",
+    "language": "Swift",
+    "updated_at": "2026-03-09T09:24:23Z",
+    "size": 26230
+  },
+  {
+    "name": "eudi-lib-jvm-openid4vci-kt",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-jvm-openid4vci-kt",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-openid4vci-kt.git",
+    "default_branch": "main",
+    "description": "Implementation of OpenID for Verifiable Credential Issuance protocol (wallet's role) in Kotlin",
+    "language": "Kotlin",
+    "updated_at": "2026-03-08T18:41:14Z",
+    "size": 1530
+  },
+  {
+    "name": "eudi-srv-trust-validator",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-trust-validator",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-trust-validator.git",
+    "default_branch": "main",
+    "description": "A servise to validate participation of an entity's X5C certificate in ETSI 119 612 Trust Lists",
+    "language": "Kotlin",
+    "updated_at": "2026-03-06T09:14:55Z",
+    "size": 209
+  },
+  {
+    "name": "eudi-srv-wallet-provider",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-wallet-provider",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-wallet-provider.git",
+    "default_branch": "main",
+    "description": "An implementation of a Wallet Provider service according to OpenId4VCI 1.0, and EUDI Wallet Standards and Technical Specifications.",
+    "language": "Kotlin",
+    "updated_at": "2026-03-06T09:04:40Z",
+    "size": 297
+  },
+  {
+    "name": "eudi-web-verifier",
+    "full_name": "eu-digital-identity-wallet/eudi-web-verifier",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-web-verifier.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "TypeScript",
+    "updated_at": "2026-03-06T08:52:49Z",
+    "size": 4250
+  },
+  {
+    "name": "eudi-lib-android-iso18013-data-transfer",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-android-iso18013-data-transfer",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-android-iso18013-data-transfer.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Kotlin",
+    "updated_at": "2026-03-06T07:29:14Z",
+    "size": 654
+  },
+  {
+    "name": "eudi-lib-android-wallet-document-manager",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-android-wallet-document-manager",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-android-wallet-document-manager.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Kotlin",
+    "updated_at": "2026-03-05T16:16:18Z",
+    "size": 1048
+  },
+  {
+    "name": "eudi-lib-ios-statium-swift",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-statium-swift",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-statium-swift.git",
+    "default_branch": "main",
+    "description": "A library for cheking the status of a credential in swift, supporting Token Status List specification",
+    "language": "Swift",
+    "updated_at": "2026-03-05T12:39:21Z",
+    "size": 108
+  },
+  {
+    "name": "eudi-lib-ios-openid4vp-swift",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-openid4vp-swift",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-openid4vp-swift.git",
+    "default_branch": "main",
+    "description": "Implementation of the OpenID4VP protocol (wallet's role) in Swift",
+    "language": "Swift",
+    "updated_at": "2026-03-05T12:07:33Z",
+    "size": 1501
+  },
+  {
+    "name": "av-app-android-wallet-ui",
+    "full_name": "eu-digital-identity-wallet/av-app-android-wallet-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-app-android-wallet-ui.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Kotlin",
+    "updated_at": "2026-03-04T12:13:55Z",
+    "size": 316496
+  },
+  {
+    "name": "eudi-lib-ios-rqes-kit",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-rqes-kit",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-rqes-kit.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Swift",
+    "updated_at": "2026-02-25T11:12:21Z",
+    "size": 88
+  },
+  {
+    "name": "eudi-lib-android-rqes-core",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-android-rqes-core",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-android-rqes-core.git",
+    "default_branch": "main",
+    "description": "Android core library for Remote Qualified Electronic Signature for wallet implementations",
+    "language": "Kotlin",
+    "updated_at": "2026-02-25T09:48:17Z",
+    "size": 253
+  },
+  {
+    "name": "av-banking-demo-credential-offer-app-android",
+    "full_name": "eu-digital-identity-wallet/av-banking-demo-credential-offer-app-android",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-banking-demo-credential-offer-app-android.git",
+    "default_branch": "main",
+    "description": "A simple demo banking app representing where the user is already logged in and identified to demonstrate third-party integration with AV app. The app solely function it to present the pre-authorized code issuance flow to issue a Proof of Age attestation.",
+    "language": "Kotlin",
+    "updated_at": "2026-02-24T15:07:18Z",
+    "size": 402
+  },
+  {
+    "name": "av-web-verifier-ui",
+    "full_name": "eu-digital-identity-wallet/av-web-verifier-ui",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-web-verifier-ui.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "TypeScript",
+    "updated_at": "2026-02-15T18:39:27Z",
+    "size": 239
+  },
+  {
+    "name": "eudi-lib-jvm-rqes-csc-kt",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-jvm-rqes-csc-kt",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-rqes-csc-kt.git",
+    "default_branch": "main",
+    "description": "Implementation of CSC protocol (wallet's role) in Kotlin",
+    "language": "Kotlin",
+    "updated_at": "2026-02-10T10:09:55Z",
+    "size": 369
+  },
+  {
+    "name": "av-lib-android-zkp-age-icao",
+    "full_name": "eu-digital-identity-wallet/av-lib-android-zkp-age-icao",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-lib-android-zkp-age-icao.git",
+    "default_branch": "main",
+    "description": "Age Verification ZKP ICAO for Android",
+    "language": "JavaScript",
+    "updated_at": "2026-02-03T09:36:56Z",
+    "size": 67867
+  },
+  {
+    "name": "eudi-srv-web-walletdriven-rpcentric-signer-qtsp-java",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-web-walletdriven-rpcentric-signer-qtsp-java",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-walletdriven-rpcentric-signer-qtsp-java.git",
+    "default_branch": "main",
+    "description": "Wallet-driven and RP-centric rQES QTSP",
+    "language": "Java",
+    "updated_at": "2026-01-30T12:22:27Z",
+    "size": 5475
+  },
+  {
+    "name": "eudi-itb",
+    "full_name": "eu-digital-identity-wallet/eudi-itb",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-itb.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Java",
+    "updated_at": "2026-01-28T11:13:14Z",
+    "size": 223
+  },
+  {
+    "name": "eudi-lib-jvm-presentation-exchange-kt",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-jvm-presentation-exchange-kt",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-presentation-exchange-kt.git",
+    "default_branch": "main",
+    "description": "Implementation of DIF Presentation Exchange v2 specification in Kotlin (jvm)",
+    "language": "Kotlin",
+    "updated_at": "2026-01-28T10:41:02Z",
+    "size": 620
+  },
+  {
+    "name": "eudi-doc-testing-application",
+    "full_name": "eu-digital-identity-wallet/eudi-doc-testing-application",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-doc-testing-application.git",
+    "default_branch": "main",
+    "description": "Functional E2E tests for EUDI Wallet application",
+    "language": "Java",
+    "updated_at": "2026-01-28T08:27:07Z",
+    "size": 1125533
+  },
+  {
+    "name": "eudi-srv-web-issuing-eudiw-py",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py.git",
+    "default_branch": "main",
+    "description": "APIs and code of the eudiw provider backend PID, mDL and EAA issuer following OID4VCI",
+    "language": "Python",
+    "updated_at": "2026-01-26T01:27:11Z",
+    "size": 33902
+  },
+  {
+    "name": "eudi-web-recruitment-service-demo",
+    "full_name": "eu-digital-identity-wallet/eudi-web-recruitment-service-demo",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-web-recruitment-service-demo.git",
+    "default_branch": "main",
+    "description": "A pseudo recruitment service to showcase the utilization of the EUDI Wallet in a \u2018Cross-Border Recruitment\u2019 business scenario",
+    "language": "TypeScript",
+    "updated_at": "2026-01-22T14:05:35Z",
+    "size": 551
+  },
+  {
+    "name": "av-srv-web-verifier-endpoint-23220-4-kt",
+    "full_name": "eu-digital-identity-wallet/av-srv-web-verifier-endpoint-23220-4-kt",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-srv-web-verifier-endpoint-23220-4-kt.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Kotlin",
+    "updated_at": "2026-01-15T13:27:18Z",
+    "size": 1436
+  },
+  {
+    "name": "eudi-lib-android-verifier-core",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-android-verifier-core",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-android-verifier-core.git",
+    "default_branch": "main",
+    "description": "Android SDK for verifying EUDI identity documents, compliant with ISO 18013-5",
+    "language": "Kotlin",
+    "updated_at": "2026-01-05T11:04:51Z",
+    "size": 243
+  },
+  {
+    "name": "SwiftCopyableMacro",
+    "full_name": "eu-digital-identity-wallet/SwiftCopyableMacro",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/SwiftCopyableMacro.git",
+    "default_branch": "main",
+    "description": "A Swift Macro for Kotlin like copy() for Structs.",
+    "language": "Swift",
+    "updated_at": "2025-12-31T18:29:55Z",
+    "size": 40
+  },
+  {
+    "name": "av-dc-api-backend",
+    "full_name": "eu-digital-identity-wallet/av-dc-api-backend",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-dc-api-backend.git",
+    "default_branch": "main",
+    "description": "DC API Backend",
+    "language": "Kotlin",
+    "updated_at": "2025-11-28T17:51:55Z",
+    "size": 51756
+  },
+  {
+    "name": "eudi-srv-web-trustedlist-manager-py",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-web-trustedlist-manager-py",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-trustedlist-manager-py.git",
+    "default_branch": "main",
+    "description": "Trusted List manager",
+    "language": "Python",
+    "updated_at": "2025-11-28T14:26:16Z",
+    "size": 4594
+  },
+  {
+    "name": "eudi-srv-statuslist-py",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-statuslist-py",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-statuslist-py.git",
+    "default_branch": "main",
+    "description": "Attestation Revocation Server (ASL and ARL)",
+    "language": "Python",
+    "updated_at": "2025-11-24T16:40:17Z",
+    "size": 60
+  },
+  {
+    "name": "eudi-srv-web-trustprovider-signer-java",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-web-trustprovider-signer-java",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-trustprovider-signer-java.git",
+    "default_branch": "main",
+    "description": "TrustProvider Signer is a remote signing service provider, and client.",
+    "language": "Java",
+    "updated_at": "2025-11-12T08:15:34Z",
+    "size": 20585
+  },
+  {
+    "name": "av-verifier-frontend-cinema",
+    "full_name": "eu-digital-identity-wallet/av-verifier-frontend-cinema",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/av-verifier-frontend-cinema.git",
+    "default_branch": "backup",
+    "description": null,
+    "language": "TypeScript",
+    "updated_at": "2025-11-06T08:24:12Z",
+    "size": 2048
+  },
+  {
+    "name": "eudi-lib-ios-presentation-exchange-swift",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-ios-presentation-exchange-swift",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-ios-presentation-exchange-swift.git",
+    "default_branch": "main",
+    "description": "Library for Presentation exchange",
+    "language": "Swift",
+    "updated_at": "2025-10-24T11:37:38Z",
+    "size": 410
+  },
+  {
+    "name": "eudi-srv-web-walletdriven-signer-external-sca-java",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-web-walletdriven-signer-external-sca-java",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-walletdriven-signer-external-sca-java.git",
+    "default_branch": "main",
+    "description": "Wallet-driven rQES external SCA",
+    "language": "Java",
+    "updated_at": "2025-10-06T10:48:54Z",
+    "size": 5007
+  },
+  {
+    "name": "eudi-srv-web-rpcentric-signer-sca-java",
+    "full_name": "eu-digital-identity-wallet/eudi-srv-web-rpcentric-signer-sca-java",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-srv-web-rpcentric-signer-sca-java.git",
+    "default_branch": "main",
+    "description": "RP Centric rQES SCA",
+    "language": "Java",
+    "updated_at": "2025-07-01T16:46:58Z",
+    "size": 4305
+  },
+  {
+    "name": "eudi-app-web-wallet-tester-py",
+    "full_name": "eu-digital-identity-wallet/eudi-app-web-wallet-tester-py",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-app-web-wallet-tester-py.git",
+    "default_branch": "main",
+    "description": "Web Wallet Tester",
+    "language": "Python",
+    "updated_at": "2025-06-20T15:09:24Z",
+    "size": 60
+  },
+  {
+    "name": "eudi-web-booking-service-demo",
+    "full_name": "eu-digital-identity-wallet/eudi-web-booking-service-demo",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-web-booking-service-demo.git",
+    "default_branch": "main",
+    "description": "A web application that implements a pseudo booking service to demostrate the presentation and issuance cababilities of EUDI ecosystem",
+    "language": "TypeScript",
+    "updated_at": "2025-03-21T15:59:50Z",
+    "size": 1799
+  },
+  {
+    "name": "eudi-lib-jvm-trust-manager-kt",
+    "full_name": "eu-digital-identity-wallet/eudi-lib-jvm-trust-manager-kt",
+    "clone_url": "https://github.com/eu-digital-identity-wallet/eudi-lib-jvm-trust-manager-kt.git",
+    "default_branch": "main",
+    "description": null,
+    "language": "Kotlin",
+    "updated_at": "2025-01-16T10:19:09Z",
+    "size": 117
+  }
+]

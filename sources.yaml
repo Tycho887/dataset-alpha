@@ -27,9 +27,29 @@ sources:
       output_format: "pdf"
       stability: "static"
 
-    - name: "arf_repo"
+    # Existing individual repos (you can keep these or migrate them to the org)
+    - name: "eudi-arf-docs"
       type: "github"
       repo_url: "https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework.git"
       branch: "main"
-      file_pattern: "*.*"
       stability: "highly_dynamic"
+
+    # NEW: Organization-level configuration
+    - name: "eu-digital-identity-wallet"
+      type: "github_org"
+      org_name: "eu-digital-identity-wallet"
+      # Optional filters:
+      include_forks: false
+      include_archived: false
+      language_filters:
+          ["Kotlin", "Swift", "Java", "Python", "JavaScript", "TypeScript"]
+      # What to extract from each repo
+      extract:
+          - "*.md" # All markdown files (documentation)
+          - "*.txt" # Text files
+          - "*.pdf" # PDFs if any
+          - "*.adoc" # AsciiDoc
+          - "src/**/*.kt" # Kotlin source (optional - for code analysis)
+          - "src/**/*.swift" # Swift source
+      stability: "highly_dynamic"
+      update_frequency: "daily" # How often to check for updates

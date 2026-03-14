@@ -12,7 +12,8 @@ dependencies = [
     "rapidocr-onnxruntime (>=1.4.4,<2.0.0)",
     "pyjson (>=1.4.1,<2.0.0)",
     "scikit-learn (>=1.8.0,<2.0.0)",
-    "html2text (>=2025.4.15,<2026.0.0)"
+    "html2text (>=2025.4.15,<2026.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)"
 ]
 
 
