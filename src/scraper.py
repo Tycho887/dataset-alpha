@@ -257,6 +257,158 @@ class DocumentScraper:
                 with open(metadata_path, "w") as f:
                     json.dump(metadata, f, indent=2)
 
+    def scrape_etsi_work_items(self, tb_id="607;ESI"):
+        """Scrape ETSI work program portal for all published/active work items."""
+        base_url = "https://portal.etsi.org/webapp/WorkProgram/Frame_WorkItemList.asp"
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; EUDI-Dataset/1.0)"}
+        query_string = (
+            f"?qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE"
+            f"&qTB_ID={requests.utils.quote(tb_id, safe='')}"
+            f"&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG="
+            f"&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN="
+            f"&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE"
+            f"&includeSubProjectCode=&qREPORT_TYPE=SUMMARY"
+        )
+        url = base_url + query_string
+
+        work_items = []
+        offset = 0
+
+        while True:
+            data = {"qOFFSET": str(offset), "qNB_TO_DISPLAY": "100"}
+            if offset > 0:
+                data["SubmitNext"] = " Next Page "
+
+            response = requests.post(url, data=data, headers=headers, timeout=30)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, "html.parser")
+            rows = soup.select("table tr")
+
+            page_items = []
+            for row in rows:
+                cells = row.find_all("td")
+                if len(cells) < 4:
+                    continue
+
+                # Cell 1: ETSI number as a bold link + detail URL
+                doc_cell = cells[1]
+                link = doc_cell.find("a", href=True)
+                if not link:
+                    continue
+
+                etsi_number = link.get_text(strip=True)
+                if not etsi_number:
+                    continue
+
+                href = link["href"]
+                detail_url = (
+                    href if href.startswith("http")
+                    else "https://portal.etsi.org" + href
+                )
+
+                page_items.append({
+                    "etsi_number": etsi_number,
+                    "title": cells[2].get_text(strip=True),
+                    "status": cells[3].get_text(strip=True),
+                    "detail_url": detail_url,
+                })
+
+            if not page_items:
+                break
+
+            work_items.extend(page_items)
+            print(f"  Scraped {len(work_items)} work items so far...")
+            offset += 100
+            time.sleep(1)
+
+        return work_items
+
+    def find_etsi_download_url(self, detail_url):
+        """Fetch an ETSI work item detail page and return the PDF download URL."""
+        headers = {"User-Agent": "Mozilla/5.0 (compatible; EUDI-Dataset/1.0)"}
+        response = requests.get(detail_url, headers=headers, timeout=30)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
+            if any(domain in href for domain in ("www.etsi.org/deliver/", "pda.etsi.org")):
+                if href.lower().endswith((".pdf", ".zip")):
+                    return href if href.startswith("http") else "https:" + href
+        return None
+
+    def process_etsi_portal(self, source):
+        """Scrape ETSI portal and download all specs as PDFs."""
+        tb_id = source.get("tb_id", "607;ESI")
+        print(f"Scraping ETSI portal for TB: {tb_id}")
+
+        source_dir = self.data_dir / source["name"]
+        source_dir.mkdir(exist_ok=True)
+
+        work_items = self.scrape_etsi_work_items(tb_id)
+
+        spec_filter = source.get("spec_filter", [])
+        if spec_filter:
+            work_items = [
+                item for item in work_items
+                if any(s in item["etsi_number"] for s in spec_filter)
+            ]
+
+        print(f"Found {len(work_items)} work items to process")
+
+        with open(source_dir / "work_items.json", "w") as f:
+            json.dump(work_items, f, indent=2)
+
+        downloaded, failed = [], []
+
+        for item in work_items:
+            safe_name = item["etsi_number"].replace(" ", "_").replace("/", "-")
+            pdf_path = source_dir / f"{safe_name}.pdf"
+
+            if pdf_path.exists():
+                print(f"  Skipping (exists): {item['etsi_number']}")
+                downloaded.append(item)
+                continue
+
+            try:
+                download_url = self.find_etsi_download_url(item["detail_url"])
+                if not download_url:
+                    print(f"  No download URL: {item['etsi_number']}")
+                    failed.append({**item, "reason": "no_download_url"})
+                    continue
+
+                response = requests.get(
+                    download_url,
+                    headers={"User-Agent": "Mozilla/5.0 (compatible; EUDI-Dataset/1.0)"},
+                    stream=True,
+                    timeout=60,
+                )
+                response.raise_for_status()
+
+                with open(pdf_path, "wb") as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+
+                item["download_url"] = download_url
+                downloaded.append(item)
+                print(f"  Downloaded: {item['etsi_number']}")
+                time.sleep(1)
+
+            except Exception as e:
+                print(f"  Failed {item['etsi_number']}: {e}")
+                failed.append({**item, "reason": str(e)})
+
+        self.save_metadata(source, source_dir, extra_info={
+            "tb_id": tb_id,
+            "total": len(work_items),
+            "downloaded": len(downloaded),
+            "failed": len(failed),
+            "failed_items": failed,
+        })
+        print(f"ETSI complete: {len(downloaded)} downloaded, {len(failed)} failed")
+
     def run(self):
         """Execute scraping for all sources (updated to handle github_org)."""
         for source in self.sources:
@@ -271,6 +423,8 @@ class DocumentScraper:
                     self.process_github_org(source)
                 elif source["type"] == "pdf":
                     self.download_pdf(source)
+                elif source["type"] == "etsi_portal":
+                    self.process_etsi_portal(source)
                 else:
                     print(f"Unknown source type: {source['type']}")
 
