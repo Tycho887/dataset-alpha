@@ -1,0 +1,8 @@
+{
+  "total_nodes": 1114,
+  "total_edges": 3669,
+  "documents_with_text": 390,
+  "total_chunks": 10407,
+  "embedding_dim": 384,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+}

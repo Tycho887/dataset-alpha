@@ -1,0 +1,14 @@
+{
+  "downloads_dir": "./downloads",
+  "output_dir": "./mcp_index",
+  "references_json": "./downloads/references.json",
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "chunk_size": 512,
+  "chunk_overlap": 128,
+  "max_chunks_per_doc": 32,
+  "damping": 0.85,
+  "max_iter": 100,
+  "tol": 1e-06,
+  "batch_size": 32,
+  "device": null
+}

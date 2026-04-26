@@ -1,0 +1,1418 @@
+
+
+<HTML>
+<HEAD>
+<link REL="stylesheet" TYPE="text/css" HREF="StyleSheet/QueryForm.css">
+	<meta NAME="DESCRIPTION" CONTENT="Work Programme -  EWP on the Web - Query Result ">
+<meta NAME="AUTHOR" CONTENT="">
+<meta NAME="KEYWORDS" CONTENT="">
+<meta NAME="SUBJECT" CONTENT="Work Programme -  EWP on the Web - Query Result ">
+<meta NAME="MS.CATEGORY" CONTENT="Internet">
+<meta name="MS.LOCALE" content="EN-GB">    
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="GENERATOR" content="Microsoft Visual Studio 6.0">
+<LINK rel="stylesheet" type="text/css" href="/webapp/css/Main.css">
+	<title>Work Programme -  EWP on the Web - Query Result  </title>
+
+</HEAD>
+
+<body TEXT="#FF8000" VLINK="#FF8000" LINK="#FF8000" ALINK="#FF8000">
+
+
+<!-- App Header : Begin -->
+<a name="Top"></a>
+<table CELLPADDING="5" CELLSPACING="0" BORDER="0" WIDTH="100%">
+	<tr>
+		<td  Class="PageHeaderSmall" NOWRAP valign="bottom" align="left">2026-04-26</td>
+		<td align="center" class="PageHeader"><b>Work Programme</b></td>
+		<td  align="right" NOWRAP valign="bottom" Class="PageHeaderSmall">Version 2.3.3</td>
+	</tr>
+</table>
+
+<table CELLPADDING="5" CELLSPACING="0" BORDER="0" WIDTH="100%">
+	<tr>
+		<td width="20%" align="left" valign="Top">
+			
+		</td>
+			
+			<td colspan="1" align="center" Class="PageSubHeader"><b></b></td>
+			<td width="20%" align="right" valign="Top">
+				
+			</td>
+	</tr>
+</table>
+<!-- App Header : End -->
+
+
+<CENTER>
+
+				<FONT CLASS="Normal"><b>
+	
+					<a href="/webapp/WorkProgram/SimpleSearch/QueryForm.asp" title="Generate a Report Using a Simple Search">
+					Simple Search</a> |
+	
+					<a href="/webapp/WorkProgram/Expert/QueryForm.asp" title="Search for Experts">
+					Advanced Search</a> |
+	
+					<a href="/webapp/WorkProgram/PreDefinedReports/QueryForm.asp" title="Choice of Multiple Pre-Defined Queries">
+					Pre-Defined Reports</a> |
+	
+					<a href="/webapp/ContextHelp/WorkProgram_help.asp?Type=" title="View On Line Help">
+	
+					Help</a>
+
+		</b></font>
+</center>
+
+
+<FORM METHOD="POST" ACTION="Frame_WorkItemList.asp?qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY" id=form1 name=form1>
+<FORM CLASS="Normal">
+
+
+<!-- Main : Begin -->
+
+<center>
+<font CLASS="XXLargeText"><b>
+All  Work Items For ESI
+</b></font><br>
+
+<div align="center">
+<font CLASS="Normal"><a href="./WorkItemPlan.asp?qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY&amp;optDisplay=">
+<b>View As Work Item Plan</b></font></a>
+
+<font CLASS="Normal">&nbsp;|&nbsp;</font>
+<font CLASS="Normal"><a href="./TUBEReport.asp?qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY&amp;optDisplay=">
+<b>View As Work Item Progress Report</b></font></a>
+</div>
+
+
+
+<!--	<input TYPE="Hidden" NAME="qETSI_STANDARD_TYPE" VALUE="">	<input TYPE="Hidden" NAME="qETSI_NUMBER" VALUE="">	<input TYPE="Hidden" NAME="qWKI_REFERENCE" VALUE="">-->
+<!--<INPUT TYPE="Hidden" NAME="qTB_ID" VALUE="607;ESI">-->
+<!--	<input TYPE="Hidden" NAME="qINCLUDE_SUB_TB" VALUE="True">	<input TYPE="Hidden" NAME="qRAPTR_NAME" VALUE="">	<input TYPE="Hidden" NAME="qRAPTR_ORGA" VALUE="">	<input TYPE="Hidden" NAME="qCURRENT_STATE_CODE" VALUE="">	<input TYPE="Hidden" NAME="qSTART_CURRENT_STATUS_CODE" VALUE="">	<input TYPE="Hidden" NAME="qEND_CURRENT_STATUS_CODE" VALUE="">	<input TYPE="Hidden" NAME="qSPEC_CURRENT_STATUS_CODE" VALUE="">	<input TYPE="Hidden" NAME="qSTOP_FLG" VALUE="">	<input TYPE="Hidden" NAME="qOPERATOR_TS" VALUE="">	<input TYPE="Hidden" NAME="qSORT" VALUE="HIGHVERSION">	-->
+<input TYPE="Hidden" NAME="qOFFSET" ID="qOFFSET" VALUE="100">
+<!--		<input TYPE="Hidden" NAME="qTITLE" VALUE="">	<input TYPE="Hidden" NAME="qPROJECT_CODE" VALUE="">	<input TYPE="Hidden" NAME="qSTF" VALUE="">	-->
+<input TYPE="Hidden" NAME="qNB_TO_DISPLAY" ID="qNB_TO_DISPLAY" VALUE="10">
+	<!-- Display TOP Navigation Bar -->
+	<table BORDER="0" CELLPADDING="1" CELLSPACING="0" WIDTH="100%" CLASS="Table">
+	<tr>
+		<td WIDTH="140" VALIGN="Middle" ALIGN="Center" CLASS="RowHead">
+			
+
+				<INPUT TYPE="SUBMIT" VALUE="Prev Page " id=SubmitPrev name=SubmitPrev>
+
+
+			
+		</td>
+		<td VALIGN="Middle" ALIGN="Center" CLASS="RowHead">
+			Found <b> 567 </b> Items...<br>
+			Displaying items <b> 101 </b> to <b> 110 </b>...<br>
+
+		</td>
+		<td WIDTH="140" VALIGN="Middle" ALIGN="Center" CLASS="RowHead">
+			
+
+				<INPUT TYPE="SUBMIT" VALUE=" Next Page " id=SubmitNext name=SubmitNext>
+
+			
+		</td>
+	</tr>
+	</table>
+
+	<!-- Display Data -->
+
+	<table BORDER="1" WIDTH="100%" CLASS="Table" CELLSPACING="0" CELLPADDING="5">
+	<tr>
+		<td CLASS="RowHead" ALIGN="Center">
+				 &nbsp;
+		</td>
+		<td CLASS="RowHead" ALIGN="Center">
+				IDENTIFICATION
+		</td>
+		<td CLASS="RowHead" ALIGN="Center">
+			TITLE
+		
+		</td>
+		<td CLASS="RowHead" ALIGN="Center">
+				STATUS
+		</td>
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>101</b><br>
+			<!-- 74913 -->
+
+			<!-- Current Status Flag -->
+			
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=74913&curItemNr=101&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 411-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>1.5.3</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019411-1v161</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2026-04-21 11:28:12</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=74913&curItemNr=101&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Trust Infrastructures (ESI);<br>Policy and security requirements for Trust Service Providers issuing certificates;<br>Part 1: General requirements<br></b><FONT Color="#708090">STF705 D3.6 Policy requirements for certification authorities issuing public key certificates</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+				<font SIZE="2" FACE="Arial" COLOR="#9966CC"><b> Drafting Stage </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>no change</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=74913">
+					<b>
+					Early draft
+						(2026-04-21)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+					 Next Status:<br> </font>
+					<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=74913">
+						<b>
+						Stable draft
+							(2026-05-15)
+						
+					</b> </a></font>
+				
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>102</b><br>
+			<!-- 70003 -->
+
+			<!-- Current Status Flag -->
+			<img src="./images/finalized.gif" alt="Finalized Work Item" border="0" title="Finalized Work Item" WIDTH="60" HEIGHT="20">
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=70003&curItemNr=102&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 411-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>1.5.1</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019411-1v151</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2026-02-13 08:25:01</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=70003&curItemNr=102&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Trust Infrastructures (ESI);<br>Policy and security requirements for Trust Service Providers issuing certificates;<br>Part 1: General requirements<br></b><FONT Color="#708090">STF705 D3.2 Policy requirements for certification authorities issuing public key certificates</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+			<!-- MMA 2022-12-15 Removed  And statusDescription <> "Withdrawn" from the 3 tests below-->
+			
+			<a href="LogonRedirection.asp?wki_id=70003" target="_blank">
+			<img src="./images/lock_word.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+REN/ESI-0019411-1v151 (Word Format)" alt="Download the standard ref:
+REN/ESI-0019411-1v151 (Word Format)" >
+			</a>
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\31941101\01.05.01_60\en_31941101v010501p.pdf" target="_blank">
+			<img src="./images/icon-pdf.png" border="0" height="16" width="16" align="right" title="Download standard ref:
+REN/ESI-0019411-1v151 (PDF Format)"  alt="Download standard ref:
+REN/ESI-0019411-1v151 (PDF Format)">
+			</a>
+			
+			<!-- MMA 2022-12-15  END Removed  And statusDescription <> "Withdrawn" from the 3 tests above-->
+			
+
+		
+				<font SIZE="2" FACE="Arial" COLOR="#339966"><b> Published </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>finalized</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=70003">
+					<b>
+					Publication
+						(2025-04-07)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>103</b><br>
+			<!-- 64273 -->
+
+			<!-- Current Status Flag -->
+			<img src="./images/finalized.gif" alt="Finalized Work Item" border="0" title="Finalized Work Item" WIDTH="60" HEIGHT="20">
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=64273&curItemNr=103&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 411-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>1.4.1</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019411-1v141</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2023-10-16 09:45:15</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=64273&curItemNr=103&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Infrastructures (ESI);<br>Policy and security requirements for Trust Service Providers issuing certificates;<br>Part 1: General requirements<br></b><FONT Color="#708090">Policy requirements for certification authorities issuing public key certificates</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+			<!-- MMA 2022-12-15 Removed  And statusDescription <> "Withdrawn" from the 3 tests below-->
+			
+			<a href="LogonRedirection.asp?wki_id=64273" target="_blank">
+			<img src="./images/lock_word.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+REN/ESI-0019411-1v141 (Word Format)" alt="Download the standard ref:
+REN/ESI-0019411-1v141 (Word Format)" >
+			</a>
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\31941101\01.04.01_60\en_31941101v010401p.pdf" target="_blank">
+			<img src="./images/icon-pdf.png" border="0" height="16" width="16" align="right" title="Download standard ref:
+REN/ESI-0019411-1v141 (PDF Format)"  alt="Download standard ref:
+REN/ESI-0019411-1v141 (PDF Format)">
+			</a>
+			
+			<!-- MMA 2022-12-15  END Removed  And statusDescription <> "Withdrawn" from the 3 tests above-->
+			
+
+		
+				<font SIZE="2" FACE="Arial" COLOR="#339966"><b> Published </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>finalized</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=64273">
+					<b>
+					Publication
+						(2023-10-16)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>104</b><br>
+			<!-- 58030 -->
+
+			<!-- Current Status Flag -->
+			<img src="./images/finalized.gif" alt="Finalized Work Item" border="0" title="Finalized Work Item" WIDTH="60" HEIGHT="20">
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=58030&curItemNr=104&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 411-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>1.3.1</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019411-1v131</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2021-05-25 14:36:50</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=58030&curItemNr=104&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Infrastructures (ESI);<br>Policy and security requirements for Trust Service Providers issuing certificates;<br>Part 1: General requirements<br></b><FONT Color="#708090">Policy requirements for certification authorities issuing public key certificates</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+			<!-- MMA 2022-12-15 Removed  And statusDescription <> "Withdrawn" from the 3 tests below-->
+			
+			<a href="LogonRedirection.asp?wki_id=58030" target="_blank">
+			<img src="./images/lock_word.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+REN/ESI-0019411-1v131 (Word Format)" alt="Download the standard ref:
+REN/ESI-0019411-1v131 (Word Format)" >
+			</a>
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\31941101\01.03.01_60\en_31941101v010301p.pdf" target="_blank">
+			<img src="./images/icon-pdf.png" border="0" height="16" width="16" align="right" title="Download standard ref:
+REN/ESI-0019411-1v131 (PDF Format)"  alt="Download standard ref:
+REN/ESI-0019411-1v131 (PDF Format)">
+			</a>
+			
+			<!-- MMA 2022-12-15  END Removed  And statusDescription <> "Withdrawn" from the 3 tests above-->
+			
+
+		
+				<font SIZE="2" FACE="Arial" COLOR="#339966"><b> Published </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>finalized</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=58030">
+					<b>
+					Publication
+						(2021-05-25)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>105</b><br>
+			<!-- 50522 -->
+
+			<!-- Current Status Flag -->
+			<img src="./images/finalized.gif" alt="Finalized Work Item" border="0" title="Finalized Work Item" WIDTH="60" HEIGHT="20">
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=50522&curItemNr=105&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 411-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>1.2.2</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019411-1v121</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2018-04-25 16:32:47</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=50522&curItemNr=105&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Infrastructures (ESI);<br>Policy and security requirements for Trust Service Providers issuing certificates;<br>Part 1: General requirements<br></b><FONT Color="#708090">Policy requirements for certification authorities issuing public key certificates</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+			<!-- MMA 2022-12-15 Removed  And statusDescription <> "Withdrawn" from the 3 tests below-->
+			
+			<a href="LogonRedirection.asp?wki_id=50522" target="_blank">
+			<img src="./images/lock_word.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+REN/ESI-0019411-1v121 (Word Format)" alt="Download the standard ref:
+REN/ESI-0019411-1v121 (Word Format)" >
+			</a>
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\31941101\01.02.02_60\en_31941101v010202p.pdf" target="_blank">
+			<img src="./images/icon-pdf.png" border="0" height="16" width="16" align="right" title="Download standard ref:
+REN/ESI-0019411-1v121 (PDF Format)"  alt="Download standard ref:
+REN/ESI-0019411-1v121 (PDF Format)">
+			</a>
+			
+			<!-- MMA 2022-12-15  END Removed  And statusDescription <> "Withdrawn" from the 3 tests above-->
+			
+
+		
+				<font SIZE="2" FACE="Arial" COLOR="#339966"><b> Published </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>finalized</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=50522">
+					<b>
+					Publication
+						(2018-04-25)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>106</b><br>
+			<!-- 39364 -->
+
+			<!-- Current Status Flag -->
+			<img src="./images/finalized.gif" alt="Finalized Work Item" border="0" title="Finalized Work Item" WIDTH="60" HEIGHT="20">
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=39364&curItemNr=106&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 411-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>1.1.1</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>DEN/ESI-0019411-1</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2016-02-26 14:52:02</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=39364&curItemNr=106&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Infrastructures (ESI);<br>Policy and security requirements for Trust Service Providers issuing certificates;<br>Part 1: General requirements<br></b><FONT Color="#708090">Policy requirements for certification authorities issuing public key certificates</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+			<!-- MMA 2022-12-15 Removed  And statusDescription <> "Withdrawn" from the 3 tests below-->
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\31941101\01.01.01_60\en_31941101v010101p0.zip" target="_blank">
+			<img src="./images/disk.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+DEN/ESI-0019411-1 (Zip Format)" alt="Download the standard ref:
+DEN/ESI-0019411-1 (Zip Format)">
+			</a>
+			
+			<a href="LogonRedirection.asp?wki_id=39364" target="_blank">
+			<img src="./images/lock_word.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+DEN/ESI-0019411-1 (Word Format)" alt="Download the standard ref:
+DEN/ESI-0019411-1 (Word Format)" >
+			</a>
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\31941101\01.01.01_60\en_31941101v010101p.pdf" target="_blank">
+			<img src="./images/icon-pdf.png" border="0" height="16" width="16" align="right" title="Download standard ref:
+DEN/ESI-0019411-1 (PDF Format)"  alt="Download standard ref:
+DEN/ESI-0019411-1 (PDF Format)">
+			</a>
+			
+			<!-- MMA 2022-12-15  END Removed  And statusDescription <> "Withdrawn" from the 3 tests above-->
+			
+
+		
+				<font SIZE="2" FACE="Arial" COLOR="#339966"><b> Published </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>finalized</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=39364">
+					<b>
+					Publication
+						(2016-02-26)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>107</b><br>
+			<!-- 74911 -->
+
+			<!-- Current Status Flag -->
+			
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=74911&curItemNr=107&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 403-3</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+						<br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019403-3v121</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2026-02-13 08:24:38</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=74911&curItemNr=107&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Trust Infrastructures (ESI);<br>Trust Service Provider Conformity Assessment;<br>Part 3: Additional requirements for conformity assessment bodies assessing EU qualified trust service providers<br></b><FONT Color="#708090">STF705 D6.8 Requirements for CABs assessing QTSP against eIDAS</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+				<font SIZE="2" FACE="Arial" COLOR="#9966CC"><b> Drafting Stage </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>no change</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=74911">
+					<b>
+					Start of work
+						(2026-01-06)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+					 Next Status:<br> </font>
+					<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=74911">
+						<b>
+						Early draft
+							(2026-02-15)
+						
+					</b> </a></font>
+				
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>108</b><br>
+			<!-- 56885 -->
+
+			<!-- Current Status Flag -->
+			<img src="./images/finalized.gif" alt="Finalized Work Item" border="0" title="Finalized Work Item" WIDTH="60" HEIGHT="20">
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=56885&curItemNr=108&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 403-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>2.3.1</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019403v231</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2020-06-18 17:03:03</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=56885&curItemNr=108&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Infrastructures (ESI);<br>Trust Service Provider Conformity Assessment; Part 1: Requirements for conformity assessment bodies assessing Trust Service Providers<br><br></b><FONT Color="#708090">Conformity Assessment of Trust Service Providers</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+			<!-- MMA 2022-12-15 Removed  And statusDescription <> "Withdrawn" from the 3 tests below-->
+			
+			<a href="LogonRedirection.asp?wki_id=56885" target="_blank">
+			<img src="./images/lock_word.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+REN/ESI-0019403v231 (Word Format)" alt="Download the standard ref:
+REN/ESI-0019403v231 (Word Format)" >
+			</a>
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\31940301\02.03.01_60\en_31940301v020301p.pdf" target="_blank">
+			<img src="./images/icon-pdf.png" border="0" height="16" width="16" align="right" title="Download standard ref:
+REN/ESI-0019403v231 (PDF Format)"  alt="Download standard ref:
+REN/ESI-0019403v231 (PDF Format)">
+			</a>
+			
+			<!-- MMA 2022-12-15  END Removed  And statusDescription <> "Withdrawn" from the 3 tests above-->
+			
+
+		
+				<font SIZE="2" FACE="Arial" COLOR="#339966"><b> Published </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>finalized</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=56885">
+					<b>
+					Publication
+						(2020-06-18)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>109</b><br>
+			<!-- 74910 -->
+
+			<!-- Current Status Flag -->
+			
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=74910&curItemNr=109&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 403-1</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+						<br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019403-1v241</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2026-02-13 08:24:14</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=74910&curItemNr=109&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Trust Infrastructures (ESI);<br>Trust Service Provider Conformity Assessment; Part 1: Requirements for conformity assessment bodies assessing Trust Service Providers<br><br></b><FONT Color="#708090">STF705 D6.7 Conformity Assessment of Trust Service Providers</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+				<font SIZE="2" FACE="Arial" COLOR="#9966CC"><b> Drafting Stage </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>no change</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=74910">
+					<b>
+					Start of work
+						(2026-01-06)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+					 Next Status:<br> </font>
+					<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=74910">
+						<b>
+						Early draft
+							(2026-02-15)
+						
+					</b> </a></font>
+				
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	<tr>
+
+		<td NOWRAP VALIGN="Top" CLASS="Head1">
+			<b>110</b><br>
+			<!-- 39371 -->
+
+			<!-- Current Status Flag -->
+			<img src="./images/finalized.gif" alt="Finalized Work Item" border="0" title="Finalized Work Item" WIDTH="60" HEIGHT="20">
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+			
+				<!-- Standard Type and ETSI Number -->
+				 Doc. Nb.
+				<a HREF="Report_WorkItem.asp?WKI_ID=39371&curItemNr=110&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+				<!-- & Server.URLEncode(CStr(i) & "&totalNrItems=" & CStr(iTOTAL_FOUND) & "&searchCriteria=" & sCRITERIA & sORDER_BY)" -->
+				<b>EN 319 403</b>
+				</a>
+
+				<!-- Version Number -->
+				<!--CMG - 27 Mar 2001 - Edition number was not displayed for ETS which by default had a version number 					So just reversed the test : Edition first, then version -->
+				
+					Ver.
+					<b>2.2.2</b><br>
+					
+				<!-- END CMG - 27 Mar 2001 -->
+
+				<!-- WKI Reference -->
+				
+					Ref.
+					<b>REN/ESI-0019403</b><br>
+				
+
+			<!-- Technical Body -->
+			
+				 Technical Body: </font>
+				
+						<a href="http://portal.etsi.org/tb.aspx?TBID=607&amp;subTB=607" target="_blank">
+					
+					<!--<a href="http://www.etsi.org/Navigation/TBRedirect.asp?qTB=ESI" target="_blank">-->
+				
+				<b>ESI</b></a><br>
+			
+
+			<!-- Last Modified During -->
+			<!--							 Last Mod: </font> 				<font SIZE="2" FACE="Arial" COLOR="#44628E"><b>2019-10-07 12:12:25</b></font> <br>									-->
+
+			<!-- Directives -->
+			
+
+			<font CLASS="Normal"> <a HREF="Report_WorkItem.asp?WKI_ID=39371&curItemNr=110&totalNrItems=567&optDisplay=10&qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY">
+			<b>
+			Details and Download
+			</b></a></font>
+
+
+		</td>
+
+		<td VALIGN="Top" CLASS="Table">
+			<b>
+		Electronic Signatures and Infrastructures (ESI);<br>Trust Service Provider Conformity Assessment - Requirements for conformity assessment bodies assessing Trust Service Providers<br><br></b><FONT Color="#708090">Conformity Assessment of Trust Service Providers</font>
+			</b>
+		</td>
+
+		<td NOWRAP VALIGN="Top" CLASS="Table">
+
+<!-- State -->
+
+<!-- Get the links from Histo_catalog -->
+
+
+			<!-- MMA 2022-12-15 Removed  And statusDescription <> "Withdrawn" from the 3 tests below-->
+			
+			<a href="LogonRedirection.asp?wki_id=39371" target="_blank">
+			<img src="./images/lock_word.png" border="0" height="16" width="16" align="right" Title="Download the standard ref:
+REN/ESI-0019403 (Word Format)" alt="Download the standard ref:
+REN/ESI-0019403 (Word Format)" >
+			</a>
+			
+			<a href="https://www.etsi.org/deliver/etsi_en\319400_319499\319403\02.02.02_60\en_319403v020202p.pdf" target="_blank">
+			<img src="./images/icon-pdf.png" border="0" height="16" width="16" align="right" title="Download standard ref:
+REN/ESI-0019403 (PDF Format)"  alt="Download standard ref:
+REN/ESI-0019403 (PDF Format)">
+			</a>
+			
+			<!-- MMA 2022-12-15  END Removed  And statusDescription <> "Withdrawn" from the 3 tests above-->
+			
+
+		
+				<font SIZE="2" FACE="Arial" COLOR="#339966"><b> Published </b></font>
+            
+				<br>
+			
+
+
+
+
+
+			<!-- Current Status Flag -->
+			<!--							 Status Flag: </FONT> 				<FONT SIZE="2" FACE="Arial" COLOR="#44628E"><b>finalized</b> </FONT> <BR>						-->
+			<!-- Current Milestone -->
+			
+				 Current Status:<br> </font>
+				<font CLASS="Normal"><a href="Report_Schedule.asp?WKI_ID=39371">
+					<b>
+					Publication
+						(2015-08-27)
+					
+				</b> </a></font> <br>
+			
+
+			<!-- Next Status -->
+
+			
+				<br>
+			
+
+		</td>
+
+	</tr>
+	
+	</table>
+
+	<!-- Display BOTTOM Navigation Bar -->
+	<table BORDER="0" CELLPADDING="1" CELLSPACING="0" WIDTH="100%" CLASS="Table">
+	<tr>
+		<td WIDTH="140" VALIGN="Middle" ALIGN="Center" CLASS="RowHead">
+			
+				<input TYPE="Submit" ID="SubmitPrev" NAME="SubmitPrev" VALUE="Prev Page ">
+			
+		</td>
+		<td VALIGN="Middle" ALIGN="Center" CLASS="RowHead">
+			Found <b> 567 </b> Items...<br>
+			Displaying items <b> 101 </b> to <b> 110 </b>...<br>
+		</td>
+		<td WIDTH="140" VALIGN="Middle" ALIGN="Center" CLASS="RowHead">
+			
+				<input TYPE="Submit" ID="SubmitNext" NAME="SubmitNext" VALUE="Next Page">
+			
+		</td>
+	</tr>
+	</table>
+
+
+<br>
+<div align="center">
+			<font CLASS="Normal"><b>
+			Display
+			<select name="optDisplay" id="optDisplay">
+				<option value="10" SELECTED>10</option>
+				<option value="20" >20</option>
+				<option value="50" >50</option>
+				<option value="100" >100</option>
+			</select>
+			 Items/Page
+			 </b></font>
+
+			<br><br>
+			<input type="submit" value="Display the 567 Items On One Page" name="butDisplayAll" id="butDisplayAll">
+			
+				<br>
+				<font CLASS="Warning"><b>
+					Warning</b>: Displaying 567 work items on one page might take a lot of time!
+				</font>
+			
+</div>
+
+
+</form>
+
+
+	<div align="center">
+	<a href="./SimpleSearch/QueryForm.asp?qSORT=HIGHVERSION&qETSI_ALL=&SearchPage=TRUE&qTB_ID=607%3BESI&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qSTOP_FLG=&qKEYWORD_BOOLEAN=&qCLUSTER_BOOLEAN=&qFREQUENCIES_BOOLEAN=&qSTOPPING_OUTDATED=&butSimple=Search&includeNonActiveTB=FALSE&includeSubProjectCode=&qREPORT_TYPE=SUMMARY&amp;optDisplay="><b>New Query</b></a>
+	</div>
+
+
+
+<!-- Main : End-->
+
+<!-- Footer BEGIN -->
+<hr>
+	<table WIDTH="100%" BORDER="0" CELLPADDING="5" CELLSPACING="0">
+		<tr>
+			<td align="left" width="10%" valign="top">
+			<a href="http://www.etsi.org" target="_blank"><img SRC="/webapp/images/logos/etsi_logo_mini.gif" border="0" Alt="ETSI Home Page" WIDTH="86" HEIGHT="26"></a>
+			</td>
+			<td ALIGN="Center" class="Normal" valign="top">
+			Any comments or problems with this application? Please <a href = "mailto:helpdesk@etsi.org"  title="Mail to contact us"> let us know...</a> 
+			</td>
+			<td width="10%" align="right" valign="top">
+			
+			</td>
+		<tr>
+	</table>
+	<a name="Bottom"></a>
+<!-- Footer END -->
+
+</font>
+
+</body>
+
+</html>
+

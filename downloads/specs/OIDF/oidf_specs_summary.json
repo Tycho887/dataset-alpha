@@ -1,0 +1,72 @@
+{
+  "downloadedAt": "2026-04-26T12:40:34.029Z",
+  "totalSpecs": 7,
+  "successCount": 7,
+  "failedCount": 0,
+  "specs": [
+    {
+      "id": "OpenID4VP",
+      "name": "OpenID for Verifiable Presentations",
+      "url": "https://openid.net/specs/openid-4-verifiable-presentations-1_0.html",
+      "version": "1.0",
+      "downloadedAt": "2026-04-26T12:40:28.644Z",
+      "filepath": "/home/tycho/eudi-nexus/downloads/specs/OIDF/OpenID4VP.html",
+      "size": 514026
+    },
+    {
+      "id": "OpenID4VCI",
+      "name": "OpenID for Verifiable Credential Issuance",
+      "url": "https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html",
+      "version": "1.0",
+      "downloadedAt": "2026-04-26T12:40:30.124Z",
+      "filepath": "/home/tycho/eudi-nexus/downloads/specs/OIDF/OpenID4VCI.html",
+      "size": 503172
+    },
+    {
+      "id": "OpenID4VC-HAIP",
+      "name": "OpenID4VC High Assurance Interoperability Profile",
+      "url": "https://openid.net/specs/openid4vc-high-assurance-interoperability-profile-1_0.html",
+      "version": "1.0",
+      "downloadedAt": "2026-04-26T12:40:31.459Z",
+      "filepath": "/home/tycho/eudi-nexus/downloads/specs/OIDF/OpenID4VC-HAIP.html",
+      "size": 149693
+    },
+    {
+      "id": "OpenID Connect Core",
+      "name": "OpenID Connect Core",
+      "url": "https://openid.net/specs/openid-connect-core-1_0.html",
+      "version": "1.0",
+      "downloadedAt": "2026-04-26T12:40:31.974Z",
+      "filepath": "/home/tycho/eudi-nexus/downloads/specs/OIDF/OpenID_Connect_Core.html",
+      "size": 437508
+    },
+    {
+      "id": "OpenID Connect Discovery",
+      "name": "OpenID Connect Discovery",
+      "url": "https://openid.net/specs/openid-connect-discovery-1_0.html",
+      "version": "1.0",
+      "downloadedAt": "2026-04-26T12:40:32.491Z",
+      "filepath": "/home/tycho/eudi-nexus/downloads/specs/OIDF/OpenID_Connect_Discovery.html",
+      "size": 109112
+    },
+    {
+      "id": "OpenID Connect Dynamic Client Registration",
+      "name": "OpenID Connect Dynamic Client Registration",
+      "url": "https://openid.net/specs/openid-connect-registration-1_0.html",
+      "version": "1.0",
+      "downloadedAt": "2026-04-26T12:40:33.003Z",
+      "filepath": "/home/tycho/eudi-nexus/downloads/specs/OIDF/OpenID_Connect_Dynamic_Client_Registration.html",
+      "size": 109588
+    },
+    {
+      "id": "OpenID Federation",
+      "name": "OpenID Federation",
+      "url": "https://openid.net/specs/openid-federation-1_0.html",
+      "version": "1.0",
+      "downloadedAt": "2026-04-26T12:40:33.529Z",
+      "filepath": "/home/tycho/eudi-nexus/downloads/specs/OIDF/OpenID_Federation.html",
+      "size": 780301
+    }
+  ],
+  "failed": []
+}

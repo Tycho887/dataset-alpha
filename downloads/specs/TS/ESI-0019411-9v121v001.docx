@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="REVISIT-AFTER" content="1 DAYS" />
+<meta name="RATING" content="GENERAL" />
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta content="text/javascript" http-equiv="Content-Script-Type" />
+<meta content="text/css" http-equiv="Content-Style-Type" />
+<title>
+	Login Page
+</title><meta id="MetaDescription" name="description" content="Login Page" /><meta id="MetaRobots" name="robots" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/DesktopModules/ETSI_PostLogin/module.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/DesktopModules/ETSI_PopupMessage/module.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/DesktopModules/EtsiGenericClientLibrary/module.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/DesktopModules/ETSI/Login/module.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/ETSI/fullscreen.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/ETSI/FullScreenContainer.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=507" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/ETSI/SuperFish/superfish.css?cdv=507" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=507" type="text/javascript"></script><script src="/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=507" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=507" type="text/javascript"></script><link rel='SHORTCUT ICON' href='/Portals/0/favicon.ico?ver=uAVXemhHW--CF0ZUKklOHA%3d%3d' type='image/x-icon' /></head>
+<body id="Body">
+
+    <form method="post" action="/LoginRedirection.aspx?domain=docbox.etsi.org&amp;ReturnUrl=/esi/esi/70-Drafts/0019411-9v121/ESI-0019411-9v121v001.docx" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="FuO9Ku2qGTXcv2T+OnBhJ+7Us6dOWmoqKL6K/6+MZWZkUwmalOB6jiyV7kUrpzBFsEVuiJsF/8laBGGMR4HKvaQaoV4t0SGJxIZd9knpTCXDo87haL0z05jR++jh5swKZnBzwT56kO8TSsFOoAGeVfF47qfTk3x6L9YI7HhGBT9j036o" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=WhkMj-rM-tXOCg47a9J-FrIkX806wd-9z_MuN24gUGIGNRsUw6dTukR3vohRiUer_OeDd8m_7nQavhJE0&amp;t=639077865246160524" type="text/javascript"></script>
+
+<script type="text/javascript">if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.hoverIntent)) document.write(unescape('%3Cscript src="/Portals/_default/Skins/ETSI/SuperFish/hoverIntent.js" type="text/javascript"%3E%3C/script%3E'));</script><script type="text/javascript">if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.superfish)) document.write(unescape('%3Cscript src="/Portals/_default/Skins/ETSI/SuperFish/superfish.js" type="text/javascript"%3E%3C/script%3E'));</script>
+<script src="/ScriptResource.axd?d=tjU0FS4EFA8JxJ9RO66_Tza1xZlxn56necjt3dEUcvT_uw2H107x-ZpkUQqImeH7GKVspVUQlHfA_oJjim4b_Wze4068CI_fIIRVWtEYSs_lXPOg5D98OG06S6LZzIz-Hx0Fx83zsHOWSa9RITXytF951YE1&amp;t=ffffffffe6d5a9ac" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=V0VPnJSdvGg5PJRWUZuq9frudbOKg0vVJm6n_2KniAnkSJhJvGVIV8SXytAveJKa8wvbWNmnUk9YfSUBlYV3jQ92GVijhclJfDUAqmPn0NUv_chq2jTllxMzBqLgW8q6JIXaiWpJBf_tv-6tL9d8nS-lvV9KifW8dvrR9A2&amp;t=ffffffffe6d5a9ac" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="uMsUkqoCsLcob6G/zdnCnVOYQTUfbkCaTQLH8p+sxEMJPmo757rbcQ7DbEQkc3ADVBSQK0vW3SOz23W4Jw2GX8gcTzfrYDhp78p0TTFqcpX0sWD6GasM2/HauJnpVNqEKk4mGJFXZywqxaOP" />
+</div><script src="/js/dnn.js?cdv=507" type="text/javascript"></script><script src="/js/dnn.modalpopup.js?cdv=507" type="text/javascript"></script><script src="/js/dnncore.js?cdv=507" type="text/javascript"></script><script src="/js/dnn.servicesframework.js?cdv=507" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+
+<script language="javascript">
+	$(document).ready(function(){
+		
+		$(window).load( resizeFrame ); 
+		$(window).resize( resizeFrame );
+		
+		function resizeFrame(){
+			var etsiFrame=$(".ETSI_Container_FullScreen .ETSIFrame");
+			if ( etsiFrame != null)
+			{
+				var height = $(window).height() - $("#header").height() - $("#menu").height() - $(".FooterPane").height() -40;
+				etsiFrame.height(height);
+			}
+		}
+	});
+	
+	
+</script>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<a id="dnn_dnnLOGO_hypLogo" title="ETSI Portal" aria-label="ETSI Portal" href="https://portal.etsi.org/"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/etsi_logo.gif?ver=OtVeApd1kiu2uYZ9i53RDg%3d%3d" alt="ETSI Portal" /></a>
+		</div>
+        <div id="dnn_TopRightPane" class="TopRightPane"><div class="DnnModule DnnModule-ETSI_Login DnnModule-10389"><a name="10389"></a>
+<div class="ETSI_Container_FullScreen">
+	<div id="dnn_ctr10389_ContentPane"><!-- Start_Module_10389 --><div id="dnn_ctr10389_ModuleContent" class="DNNModuleContent ModETSILoginC">
+	
+<script>
+function login(){
+	var url = "/ETSIPages/LoginEOL.ashx";
+	var xhttp = new XMLHttpRequest();
+	xhttp.open("POST", url, true);
+	var data = JSON.stringify(
+	{
+		username: document.getElementById('EOLUsername').value,
+		password: document.getElementById('EOLPassword').value 
+	}
+	);
+	xhttp.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
+	
+	xhttp.onreadystatechange = function() {
+		if(xhttp.readyState == 4 && xhttp.status == 200) {
+			if(xhttp.responseText == "Failed"){
+				userPswIncorrect.style.display = "block";
+				userPswIncorrect.style.visibility = "visible";
+			}else{
+			
+				if(getQueryParams(window.location)["ReturnUrl"] != null){
+					if(getQueryParams(window.location)["domain"] != null){
+						window.location.href = "https://" +  getQueryParams(window.location)["domain"] + getQueryParams(window.location)["ReturnUrl"];
+					}else{
+						window.location.href = decodeURIComponent(getQueryParams(window.location)["ReturnUrl"]);
+					}
+				}else if(getQueryParams(window.location)["returnurl"] != null){
+					if(getQueryParams(window.location)["domain"] != null){
+						window.location.href = "https://" +  getQueryParams(window.location)["domain"] + getQueryParams(window.location)["returnurl"];
+					}else{
+						window.location.href = decodeURIComponent(getQueryParams(window.location)["returnurl"]);
+					}
+				}else{
+					location.reload();
+				}
+			}
+		}
+	}
+	xhttp.send(data);
+}
+function getQueryParams(url) {
+    const paramArr = url.href.slice(url.href.indexOf('?') + 1).split('&');
+    const params = {};
+    paramArr.map(param => {
+        const [key, val] = param.split('=');
+        params[key] = val;
+    })
+    return params;
+}
+</script>
+
+
+<div id="dnn_ctr10369_View_cmdLogin" class="DNNModuleContent ModGSADProAuthenticationC">
+	
+<div id="search_corners" class="search_corners_bg_guest"></div>
+<div id="search_body" class="search_body_bg_guest">
+<div id="" class="">
+    <div class="dnnForm">         
+        <div class="dnnFormItem">     
+        </div>
+            <table style="width:500px">  
+                <tbody>
+                    <tr>			
+                        <td align="left">
+						
+						<div class="loginText" style="padding-top:10px">
+							Please log-in with your EOL account.
+						</div>	
+						
+						
+						<div class="loginForm">
+							<table cellpadding="0" cellspacing="1" style="width:160px">    
+								<tbody>
+									<tr>
+										<td style="width:50px;">
+											<span class="LoginLabel">
+												<span id="EOLUsernameLbl" controlname="EOLUsername">Username:</span>
+
+											</span>
+										</td>
+										<td>
+											<span>
+												<input name="EOLUsername" type="text" id="EOLUsername" class="textboxcss dnnFormRequired" onkeydown="if(event.key === 'Enter') {login();return false;}">
+
+											</span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="LoginLabel">
+												<span id="EOLPasswordLbl" controlname="EOLPassword">Password:</span>
+											</span>
+										</td>
+										<td>
+											<span>
+												<input name="EOLPassword" type="password" id="EOLPassword" class="textboxcssPW dnnFormRequired" onkeydown="if(event.key === 'Enter') {login();return false;}">
+
+											</span>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2" style="position:relative"> 
+											<span style="margin: 0;position:absolute;top: 0px;">
+											Keep me signed in <a href="http://portal.etsi.org/Help/ITHelpdesk/PortalLoginInformation.aspx">(more info)</a>
+											
+											<span ssclass="dnnPrimaryAction" style="vertical-align: middle;position: relative;bottom: 1px;"><input id="rememberMe" type="checkbox" name="rememberMe"></span>
+											</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+						
+						<div class="loginButton">   
+							<div class="ConteneurCssImage"> 
+								<a id="cmdLogin" class="imageLogin" href="#/" onClick="login();this.preventDefault();return false;"></a><br> 
+							</div>						
+							<div align="center">   
+								<a href="https://portal.etsi.org/createaccount" class="linkCss" target="_blank">Sign Up</a> &nbsp;<br>   
+								<a href="/ResetPassword.aspx" class="linkCss" target="_blank">Forgot your password ?</a> 
+							</div>   
+
+                        </div> 
+						
+						
+						
+					
+                        </td>
+                    </tr>
+                </tbody>
+            </table> 
+
+        </div>
+    </div> 
+</div>
+<div id="login_search_corners" class="login_search_corners_bg_guest"></div>
+
+
+</div>
+<div><span id="userPswIncorrect" class="dnnFormMessage dnnFormError" style="margin-bottom:5px;float:right;display:none;visibility:hidden;">Username or password was incorrect</span></div>
+
+<link type="text/css" rel="Stylesheet" href="DesktopModules/ETSI/Login/module.css">
+</div><!-- End_Module_10389 --></div>
+</div>
+
+</div></div>
+		<div>&nbsp;</div>
+		
+		
+	</div>
+	<div id="nav" style="margin-bottom:0px">
+		<div id="menu">
+			<script type="text/javascript">
+			jQuery(function($) {
+				$("#dnn_dnnMENU").superfish(
+					{onShow:function() { if ($.browser.msie) this[0].style.removeAttribute('filter'); },MenuStyle:"SuperFish"}
+				);
+			});
+		</script><ul class="sf-menu" id="dnn_dnnMENU">
+  <li>
+    <div style="display:inline-block"><a href="https://portal.etsi.org/">Home</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://portal.etsi.org">Portal Home</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://www.etsi.org" target="_blank">Web Home</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">Resources</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/ETSI-Drafting-Rules" target="_blank">ETSI Drafting Rules</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Drafting/Skeletons" target="_blank">ETSI Skeletons</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><span class="rightArrow"> </span><a href="http://javascript:void(0)" target="_blank">User Guides</a></div>
+        <ul>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Chair%27s_Guide" target="_blank">Chair's Guide</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Delegate%27s_Guide" target="_blank">Delegates Guide</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Meeting_Host_Guidelines" target="_blank">Meeting Host Guidelines</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Members_Guide" target="_blank">Member Official Contacts’ Guide</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=NSOs_Guide" target="_blank">NSO's guide</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/User-guides/ETSI-Rapporteurs-guide" target="_blank">Rapporteur's guide</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=ETSI_Standards_Making_Process_Guide" target="_blank">Standards Making Process</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/User-guides/ETSI-STF-Experts-guide" target="_blank">STF/TTF Experts' guide</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Use_of_English" target="_blank">Use of English for drafting ETSI deliverables</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Use_of_gender_inclusive_language" target="_blank">Use of gender inclusive language guide</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://www.etsi.org/e-brochure/WritingWorldClassStandards/mobile/index.html#p=1" target="_blank">Writing World Class Standards</a></div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><span class="rightArrow"> </span><a href="http://javascript:void(0)" target="_blank">Partnership agreements</a></div>
+        <ul>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Search/Partnership-agreements/Partnership-Establishment" target="_blank">Partnership Engagement Process</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="http://webapp.etsi.org/AgreementView/AgreementSearch.asp" target="_blank">Partnership Portfolio</a></div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://www.etsi.org/technologies-clusters/technologies/radio/radio-spectrum" target="_blank">Radio Spectrum Webpage</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://docbox.etsi.org/ETSI_presentations/ETSI_presentations/" target="_blank">ETSI Presentations</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/Resources/ETSI-Directives" target="_blank">ETSI Directives</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">People</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/People/ETSI-Organisation-Chart" target="_blank">ETSI Organisation Chart</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/People/Commitee-Support-Staff" target="_blank">Committee Support Staff</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://portal.etsi.org/CTI/article.htm?page=Contacts" target="_blank">CTI Support Staff</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/STF/STFs/STF-TTF-work/STF-support-team" target="_blank">STF Support Staff</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+        <div style="display:inline-block"><a href="/webapp/TelDir/TelDirectory.asp" target="_blank">Directory</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">Services</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/editHelp" target="_blank">editHelp!</a></div>
+        <ul>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp" target="_blank">editHelp! Sitemap</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">How to start?</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Portals/0/TBpages/edithelp/Docs/Videos/editHelp_website_video_tour.mp4" target="_blank">editHelp! video tour</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/ETSI-Drafting-Rules" target="_blank">ETSI Drafting Rules</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/Supported-file-formats" target="_blank">Supported file formats</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Document procedures and types</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/Document-procedures-and-types/Standards-Making-Process" target="_blank">Standards Making Process</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/Document-procedures-and-types/ETSI-numbering-system-for-documents" target="_blank">ETSI numbering system</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/Document-procedures-and-types/Multi-type-documents" target="_blank">Multi-type documents</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/Document-procedures-and-types/Version-numbering-system" target="_blank">Version numbering system</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">User guides</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://www.etsi.org/e-brochure/WritingWorldClassStandards/mobile/" target="_blank">Guide to Writing World Class Standards</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Chair%27s_Guide" target="_blank">Chair’s guide (log in with ETSI online account)</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/User-guides/Rapporteurs-guide" target="_blank">Rapporteurs' guide</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/How-to-start/User-guides/STF-TTF-Experts-guide" target="_blank">STF/TTF Experts’ guide</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Delegate%27s_Guide" target="_blank">Delegate's guide</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Member_Official_Contacts%E2%80%99_Guide" target="_blank">Member Official Contact's guide</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=NSOs_Guide" target="_blank">NSOs' guide</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Meeting_Host_Guidelines" target="_blank">Meeting Hosts guide</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Use_of_gender_inclusive_language" target="_blank">Use of gender-inclusive language guide</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://ocgwiki.etsi.org/index.php?title=Use_of_English" target="_blank">Use of English for drafting ETSI deliverables</a></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Standards development</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Drafting</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Drafting/Skeletons" target="_blank">Skeletons</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Drafting/Styles-toolbar" target="_blank">Styles</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Drafting/Editing-checklist" target="_blank">Editing checklist</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Drafting/Editing-questions-you-may-be-asked" target="_blank">Editing questions you may be asked</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Tracking a draft</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Tracking-a-draft/EWP" target="_blank">Work Item schedule</a></div>
+                    <ul>
+                      <li>
+                        <div style="width:20px;display:inline-block;">  
+			</div>
+                        <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Tracking-a-draft/Status-codes" target="_blank">Milestones listing</a></div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="http://webapp.etsi.org/ContextHelp/WorkProgram_help.asp?type=CODES_KEYWORDS" target="_blank">Project Codes &amp; Keywords</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="/webapp/WorkProgram/WorkItemPlan.asp?qSORT=HIGHVERSION&amp;qETSI_ALL=&amp;SearchPage=TRUE&amp;qINCLUDE_SUB_TB=True&amp;qINCLUDE_MOVED_ON=&amp;qSTART_CURRENT_STATUS_CODE=0%3BM40&amp;qEND_CURRENT_STATUS_CODE=7+B%3BN4&amp;qSTOP_FLG=N&amp;qKEYWORD_BOOLEAN=OR&amp;qSTOPPING_OUTDATE" target="_blank">Std. under development</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="/webapp/WorkProgram/TUBEReport.asp?qSORT=HIGHVERSION&amp;qETSI_ALL=&amp;SearchPage=TRUE&amp;qINCLUDE_SUB_TB=True&amp;qCURRENT_STATE_CODE=new&amp;qINCLUDE_MOVED_ON=&amp;qSTART_CURRENT_STATUS_CODE=0%3BM40&amp;qEND_CURRENT_STATUS_CODE=7+B%3BN4&amp;qSTOP_FLG=N&amp;qKEYWORD_BOOLEA" target="_blank">New activities</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://www.etsi.org/technologies" target="_blank">Clusters</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Guidelines</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="http://portal.etsi.org/Services/CentreforTestingInteroperability/Downloads/BestPracticesGuides.aspx" target="_blank">Best Practices Guides</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Guidelines/ICS-proforma" target="_blank">ICS proforma</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Standards-development/Guidelines/Harmonized-Standards" target="_blank">Harmonised Standards</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="http://portal.etsi.org/Services/CentreforTestingInteroperability/CTISupportforTBs/Guides.aspx" target="_blank">Validation and Technical Quality</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Portals/0/TBpages/edithelp/Docs/Communiqu%C3%A9s_from_editHelp!/Guidelines_on_ETSI_Forge.pdf" target="_blank">ETSI Forge in ETSI Deliverables</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://www.etsi.org/media-library/brochures-and-guides" target="_blank">Further guidances, brochures (what is a PAS?, Interoperability Best Practices, ...)</a></div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">To help you in your work</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/editHelp/How-to-start/ETSI-Drafting-News" target="_blank">Communiqués from editHelp!</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://app.powerbi.com/view?r=eyJrIjoiNWQwYzBmNDktZTBmOC00NjIxLWFjNTUtYjEwNTIzYzBhNWE2IiwidCI6ImU2NzQ2YWI1LWViZGMtNGU5ZC04MjFiLWE3MWJkYWY2M2Q5YiIsImMiOjl9" target="_blank">Deliverable production statistics</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Services</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Services/HS-compared-versions" target="_blank">Compared versions of ETSI Harmonised Standards</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Portals/0/TBpages/edithelp/Docs/ENAP_or_SRdaP_comments_and_resolution_reports.docx?ver=sSfOWonjMgUJERfSm5DLvQ%3d%3d" target="_blank">ENAP or SRdAP comments and resolution report template</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Services/Clean-ups" target="_blank">Clean-ups</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Use and reproduction of text, signs and material legally protected</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Use-and-reproduction-of-text-signs-and-material-legally-protected/General-provisions" target="_blank">General provisions</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Use-and-reproduction-of-text-signs-and-material-legally-protected/Trade-names-and-trademarks" target="_blank">Trade names and trademarks</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Use-and-reproduction-of-text-signs-and-material-legally-protected/Copyrights" target="_blank">Copyrights</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Use-and-reproduction-of-text-signs-and-material-legally-protected/Photographs" target="_blank">Photographs</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Tools</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="http://webapp.etsi.org/Teddi/" target="_blank">Terms &amp; Abbreviations database</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="http://webapp.etsi.org/key/queryform.asp" target="_blank">3GPP/GSM cross-references (3GPP vs ETSI)</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Tools/External-links" target="_blank">Other Standards Bodies</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Further resources</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="http://portal.etsi.org/edithelp/Files/other/Graphics_editHelp!.pdf" target="_blank">Graphics - Figures</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/To-help-you-in-your-work/Further-resources/Mathematical-formulae" target="_blank">Mathematical formulae</a></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Contact-Us" target="_blank">Contact Us</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Search</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://www.etsi.org/standards-search#Pre-defined Collections" target="_blank">Search for ETSI standards</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/webapp/WorkProgram/Expert/QueryForm.asp" target="_blank">Advanced search ETSI Work Item</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://www.etsi.org/deliver/" target="_blank">Search for a specific ETSI deliverable (PDF only)</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://webapp.etsi.org/key/queryform.asp" target="_blank">3GPP standards VS ETSI standards</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Search/FAQs" target="_blank">FAQs</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/editHelp/Contact-Us" target="_blank">Contact editHelp!</a></div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://portal.etsi.org/eLearning/home.asp" target="_blank">eLearning</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability" target="_blank">Centre for Testing &amp; Interoperability</a></div>
+        <ul>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">ETSI Approach</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Introduction" target="_blank">Introduction</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Conformance" target="_blank">Conformance Testing</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Interoperability-Testing" target="_blank">Interoperability Testing</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Validation" target="_blank">Validation of standards</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/ValidationSpec" target="_blank">Validation of Test Specifications</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Model-Based-Testing" target="_blank">Model-Based Testing</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://portal.etsi.org/portal/server.pt/community/MTS/323" target="_blank">TC MTS</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/TestLanguages" target="_blank">Testing Languages</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Testing-Languages/TTCN3" target="_blank">TTCN-3</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Testing-Languages/TPLAN" target="_blank">TPLAN</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://tdl.etsi.org/" target="_blank">TDL</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/SpecLanguages" target="_blank">Specification Languages</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Specification-Languages/ASN1" target="_blank">ASN.1</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Specification-Languages/MSC" target="_blank">MSC</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/ETSI-Approach/Specification-Languages/SDL" target="_blank">SDL</a></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Activities</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://www.etsi.org/events?eventtype=interoperability-event&amp;eventtechnology=&amp;eventcountry=&amp;year=" target="_blank">Events Calendar</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/Electronic-Signature/Electronic-Signatures-Testing" target="_blank">Electronic Signature</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/Electronic-Signature/Electronic-Signatures-Testing" target="_blank">Electronic Signatures Testing</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/Electronic-Signature/TSL-Conformance-project" target="_blank">TSL Conformance project</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="http://signatures-conformance-checker.etsi.org/" target="_blank">ETSI Signature Conformance Checker</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/Intelligent-Transport-System/Test-Events" target="_blank">Intelligent Transport System</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/Intelligent-Transport-System/Decentralized-Congestion-Control" target="_blank">Decentralized Congestion Control</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/Intelligent-Transport-System/Security" target="_blank">Security</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/Intelligent-Transport-System/C-ITS-Protocols" target="_blank">C-ITS Protocols</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/3GPP-Testing/Test-events" target="_blank">3GPP Testing</a></div>
+                <ul>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/3GPP-Testing/Test-events" target="_blank">Test events</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/3GPP/User-Equipment" target="_blank">User Equipment Conformance</a></div>
+                  </li>
+                  <li>
+                    <div style="width:20px;display:inline-block;">  
+			</div>
+                    <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Activities/3GPP-Testing/Core-Networks" target="_blank">Core Networks</a></div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">CTI Support for TBs</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/CTI-Support-for-TBs/ServicesForTBs" target="_blank">Services for ETSI TBs</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/CTI-Support-for-TBs/How-to-Plugtest" target="_blank">How to organize a Plugtest</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/CTI-Support-for-TBs/Glossary" target="_blank">Glossary</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://portal.etsi.org/PNNS/" target="_blank">PNNS</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/CTI-Support-for-TBs/Guides" target="_blank">Guides</a></div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="#" onclick="return false">Downloads</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Downloads/TestReports" target="_blank">Test Reports</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Downloads/Video" target="_blank">Video</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Downloads/Approach" target="_blank">Best Practices Guides</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Downloads/TestSpecs" target="_blank">Test Specifications</a></div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/Contacts" target="_blank">Contacts</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Services/Centre-for-Testing-Interoperability/CTITools" target="_blank">CTI Tools</a></div>
+            <ul>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://signatures-conformance-checker.etsi.org/" target="_blank">ETSI Signature Conformance Checker</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://cti-ts.etsi.org/" target="_blank">CTI Terminal Services</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="https://trt.plugtests.net" target="_blank">Test Reporting Tool</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://t-ort.etsi.org/" target="_blank">CTI Bug Tracker</a></div>
+              </li>
+              <li>
+                <div style="width:20px;display:inline-block;">  
+			</div>
+                <div style="display:inline-block"><a href="http://websvn.etsi.org/" target="_blank">CTI SVN Portal</a></div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/STF/STFs/Summary.aspx" target="_blank">Specialist Tasks Forces</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/Services/Closed-TBs" target="_blank">Closed ETSI Groups</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">IPR</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://www.etsi.org/about/how-we-work/intellectual-property-rights-iprs" target="_blank">IPRs in ETSI</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+        <div style="display:inline-block"><a href="http://ipr.etsi.org" target="_blank">Search/Declare IPRs online</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">Manage</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><span class="rightArrow"> </span><a href="http://javascript:void(0)" target="_blank">Approve</a></div>
+        <ul>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+            <div style="display:inline-block"><a href="/webapp/EApproval/" target="_blank">E-Approval</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+            <div style="display:inline-block"><a href="http://portal.etsi.org/webapp/tbdecision3/" target="_blank">TB/GA/BOARD Voting tool</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/webapp/membershipapplicationpoll/Menu.asp" target="_blank">Membership Application Poll</a></div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><span class="rightArrow"> </span><a href="http://javascript:void(0)" target="_blank">Access</a></div>
+        <ul>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Change-Password" target="_blank">Change password</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Reset-password" target="_blank">Reset password</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+            <div style="display:inline-block"><a href="/webapp/ARM/" target="_blank">Access Rights Management</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/CreateAccount" target="_blank">Account request</a></div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+        <div style="display:inline-block"><a href="/webapp/TelDir/PersonalInfo.asp" target="_blank">My details</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			<img src="/icons/sigma/lock_16x16_standard.png"></div>
+        <div style="display:inline-block"><a href="/webapp/TBMembershiplist/" target="_blank">TB Membership</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://list.etsi.org" target="_blank">Mailing Lists</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			<img src="/Portals/0/lock_16x16_standard.png?ver=C056vwNhVgPjEdf6KERUuA%3d%3d"></div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/meetings-management/#/list" target="_blank">Meetings</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			<img src="/Portals/0/lock_16x16_standard.png?ver=C056vwNhVgPjEdf6KERUuA%3d%3d"></div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/meetings-management/#/room" target="_blank">View room allocation</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">Search</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://webapp.etsi.org/Teddi/" target="_blank">Terms &amp; Definitions (TEDDI)</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="/webapp/WorkProgram/SimpleSearch/QueryForm.asp" target="_blank">ETSI Work Programme</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://www.etsi.org/standards" target="_blank">Standards Search</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">Events</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://portal.etsi.org/Meetings.aspx#/" target="_blank">Meetings Calendar</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="https://www.etsi.org/about/find-us/" target="_blank">Getting To ETSI</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://www.etsi.org/news-events/events" target="_blank">Events Calendar</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="#" onclick="return false">Help</a></div>
+    <ul>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><span class="rightArrow"> </span><a href="https://portal.etsi.org/Help/IT-Helpdesk" target="_blank">IT Helpdesk</a></div>
+        <ul>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Help/IT-Helpdesk/Contact-IT-Helpdesk" target="_blank">Contact IT Helpdesk</a></div>
+          </li>
+          <li>
+            <div style="width:20px;display:inline-block;">  
+			</div>
+            <div style="display:inline-block"><a href="https://portal.etsi.org/Help/IT-Helpdesk/Portal-Login-Information" target="_blank">Portal Login Information</a></div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://help.etsi.org/index.php?title=Main_Page" target="_blank">Portal Help</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://help.etsi.org/index.php?title=ChangeLog" target="_blank">Portal Change Log</a></div>
+      </li>
+      <li>
+        <div style="width:20px;display:inline-block;">  
+			</div>
+        <div style="display:inline-block"><a href="http://portal.etsi.org/frf/" target="_blank">Submit a new portal feature</a></div>
+      </li>
+    </ul>
+    <div align="center" style="color:#AAAAAA; display:inline-block;"> | </div>
+  </li>
+  <li>
+    <div style="display:inline-block"><a href="https://webstore.etsi.org/ecommerce/ListArticle.asp" target="_blank">WEBstore</a></div>
+  </li>
+</ul>
+		</div>
+	</div>
+	<div id="dnn_ContentPane" class="ContentPane"><div class="DnnModule DnnModule-ETSI_PostLogin DnnModule-481"><a name="481"></a>
+<div class="ETSI_Container_FullScreen">
+	<div id="dnn_ctr481_ContentPane"><!-- Start_Module_481 --><div id="dnn_ctr481_ModuleContent" class="DNNModuleContent ModETSIPostLoginC">
+	
+
+</div><!-- End_Module_481 --></div>
+</div>
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-4575 DnnVersionableControl"><a name="4575"></a>
+<div class="ETSI_Container_FullScreen">
+	<div id="dnn_ctr4575_ContentPane"><!-- Start_Module_4575 --><div id="dnn_ctr4575_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr4575_HtmlModule_lblContent"><p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">Please enter your login and your password.</p></div>
+
+
+
+
+</div><!-- End_Module_4575 --></div>
+</div>
+
+</div></div>
+	
+	<div id="dnn_FooterPane" class="FooterPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-485 DnnVersionableControl"><a name="485"></a>
+<div class="ETSI_Container_FullScreen">
+	<div id="dnn_ctr485_ContentPane"><!-- Start_Module_485 --><div id="dnn_ctr485_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr485_HtmlModule_lblContent"><p id="ali-footer"><span> Optimized for Chrome, Edge, and Firefox</span><br>
+	 <br>
+	© ETSI 2026. All rights reserved - <a href="http://help.etsi.org/index.php?title=ChangeLog">ETSI Portal v3.14.62</a> - 2026-04-23 - <a href="http://www.etsi.org/website/copyright.aspx" target="_blank">Terms of use</a> - <a href="http://www.etsi.org/privacy" target="_blank">Privacy policy</a> - <a href="https://portal.etsi.org/Legal-Notice">Legal Notice</a><br>
+</p>
+<p id="ali-footer" style="margin-left: 80px;"><br>
+</p></div>
+
+
+
+
+</div><!-- End_Module_485 --></div>
+</div>
+
+</div><div class="DnnModule DnnModule-ETSI_PopupMessage DnnModule-5198"><a name="5198"></a>
+<div class="ETSI_Container_FullScreen">
+	<div id="dnn_ctr5198_ContentPane"><!-- Start_Module_5198 --><div id="dnn_ctr5198_ModuleContent" class="DNNModuleContent ModETSIPopupMessageC">
+	
+    
+</div><!-- End_Module_5198 --></div>
+</div>
+
+</div><div class="DnnModule DnnModule-EtsiGenericClientLibrary DnnModule-7341"><a name="7341"></a>
+<div class="ETSI_Container_FullScreen">
+	<div id="dnn_ctr7341_ContentPane"><!-- Start_Module_7341 --><div id="dnn_ctr7341_ModuleContent" class="DNNModuleContent ModEtsiGenericClientLibraryC">
+	
+
+<style>
+    /* CUSTOM FEEDBACK BUTTON INSIDE MENU */
+    .sf-feedback-floatright{
+        float: right !important;
+    }
+    .sf-feedback {
+        color: White !important;
+        background-color: #a04276;	
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+        margin-left: 370px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+    }
+</style>
+
+<script>
+    /* CUSTOM FEEDBACK BUTTON INSIDE MENU */
+    $(document).ready(function () {
+        var feddbackMenu = $("#nav a:contains('Feedback')");
+        feddbackMenu.addClass('sf-feedback');
+        feddbackMenu.attr('data-info', 'Customized thanks to ETSI skin');
+        feddbackMenu.parent().parent().addClass('sf-feedback-floatright');
+    });
+</script>
+</div><!-- End_Module_7341 --></div>
+</div>
+
+</div></div>
+
+</div>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`trackLinks`:`false`,`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`1774`,`evoq_TabId`:`1774`,`evoq_PageLanguage`:`en-US`,`evoq_ContentItemId`:`-1`,`evoq_UrlReferrer`:``,`evoq_UrlPath`:`https%3a%2f%2fportal.etsi.org%2fLoginRedirection.aspx%3fdomain%3ddocbox.etsi.org%26ReturnUrl%3d%2fesi%2fesi%2f70-Drafts%2f0019411-9v121%2fESI-0019411-9v121v001.docx`,`evoq_UrlQuery`:`%3fTabId%3d1774%26domain%3ddocbox.etsi.org%26ReturnUrl%3d%252fesi%252fesi%252f70-Drafts%252f0019411-9v121%252fESI-0019411-9v121v001.docx%26language%3den-US`,`evoq_ContentItemReferrer`:`-1`,`evoq_PersonalizedUrlReferrer`:`-1`,`evoq_DisableAnalytics`:`False`}" />
+        <input name="__RequestVerificationToken" type="hidden" value="lldnxEE_KNNQaUWWO9gLVydFkNzKE813PVg2JAXBVai9lXCYagWTvQHQOG1fNgMIVouUWA2" />
+    </form>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=507|DnnBodyProvider|100)--><!--CDF(Javascript|/js/dnn.modalpopup.js?cdv=507|DnnBodyProvider|50)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=507|DnnPageHeaderProvider|5)--><!--CDF(Css|/Portals/_default/Skins/ETSI/fullscreen.css?cdv=507|DnnPageHeaderProvider|20)--><!--CDF(Css|/Portals/_default/Containers/ETSI/FullScreenContainer.css?cdv=507|DnnPageHeaderProvider|30)--><!--CDF(Css|/DesktopModules/ETSI_PostLogin/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/ETSI_PostLogin/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/ETSI/FullScreenContainer.css?cdv=507|DnnPageHeaderProvider|30)--><!--CDF(Css|/Portals/_default/Containers/ETSI/FullScreenContainer.css?cdv=507|DnnPageHeaderProvider|30)--><!--CDF(Css|/Portals/_default/Containers/ETSI/FullScreenContainer.css?cdv=507|DnnPageHeaderProvider|30)--><!--CDF(Css|/DesktopModules/ETSI_PopupMessage/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/ETSI_PopupMessage/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/ETSI/FullScreenContainer.css?cdv=507|DnnPageHeaderProvider|30)--><!--CDF(Css|/DesktopModules/EtsiGenericClientLibrary/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/EtsiGenericClientLibrary/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/_default/Containers/ETSI/FullScreenContainer.css?cdv=507|DnnPageHeaderProvider|30)--><!--CDF(Css|/DesktopModules/ETSI/Login/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/DesktopModules/ETSI/Login/module.css?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Css|/Portals/0/portal.css?cdv=507|DnnPageHeaderProvider|35)--><!--CDF(Javascript|/js/dnn.js?cdv=507|DnnBodyProvider|12)--><!--CDF(Javascript|/js/dnn.servicesframework.js?cdv=507|DnnBodyProvider|100)--><!--CDF(Css|/Portals/_default/Skins/ETSI/SuperFish/superfish.css?cdv=507|DnnPageHeaderProvider|100)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_12_01/jquery-ui.js?cdv=507|DnnPageHeaderProvider|10)--><!--CDF(Javascript|/Resources/libraries/jQuery/03_05_01/jquery.js?cdv=507|DnnPageHeaderProvider|5)--><!--CDF(Javascript|/Resources/libraries/jQuery-Migrate/03_02_00/jquery-migrate.js?cdv=507|DnnPageHeaderProvider|6)-->
+    
+</body>
+</html>

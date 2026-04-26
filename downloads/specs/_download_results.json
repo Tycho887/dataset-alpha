@@ -1,0 +1,1254 @@
+{
+  "success": [
+    {
+      "etsiNumber": "EN 319 403",
+      "filename": "EN/en_319403v020202p.pdf (122.27 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_en/319400_319499/319403/02.02.02_60/en_319403v020202p.pdf"
+    },
+    {
+      "etsiNumber": "EN 319 162-2",
+      "filename": "EN/en_31916202v010101p.pdf (65.82 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_en/319100_319199/31916202/01.01.01_60/en_31916202v010101p.pdf"
+    },
+    {
+      "etsiNumber": "EN 319 142-2",
+      "filename": "EN/en_31914202v010201p.pdf (369.56 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_en/319100_319199/31914202/01.02.01_60/en_31914202v010201p.pdf"
+    },
+    {
+      "etsiNumber": "EN 319 132-2",
+      "filename": "EN/en_31913202v010101p.pdf (99.53 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_en/319100_319199/31913202/01.01.01_60/en_31913202v010101p.pdf"
+    },
+    {
+      "etsiNumber": "EN 319 132-1",
+      "filename": "EN/en_31913201v010301p.pdf (430.57 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_en/319100_319199/31913201/01.03.01_60/en_31913201v010301p.pdf"
+    },
+    {
+      "etsiNumber": "EN 319 122-2",
+      "filename": "EN/en_31912202v010101p.pdf (102.44 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_en/319100_319199/31912202/01.01.01_60/en_31912202v010101p.pdf"
+    },
+    {
+      "etsiNumber": "EN 319 122-1",
+      "filename": "EN/en_31912201v010301p.pdf (544.15 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_en/319100_319199/31912201/01.03.01_60/en_31912201v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 614-1",
+      "filename": "TS/ts_11961401v010101p.pdf (187.41 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 612",
+      "filename": "TS/ts_119612v020401p.pdf (583 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.04.01_60/ts_119612v020401p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 602",
+      "filename": "TS/ts_119602v010101p.pdf (402.62 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119600_119699/119602/01.01.01_60/ts_119602v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 600",
+      "filename": "TR/tr_119600v010201p.pdf (84.57 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119600_119699/119600/01.02.01_60/tr_119600v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 542",
+      "filename": "TS/ts_119542v010101p.pdf (163.21 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/119542/01.01.01_60/ts_119542v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 541",
+      "filename": "TS/ts_119541v010101p.pdf (143.89 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/119541/01.01.01_60/ts_119541v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 540",
+      "filename": "TR/tr_119540v010101p.pdf (825.86 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119500_119599/119540/01.01.01_60/tr_119540v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 534-2",
+      "filename": "TS/ts_11953402v010201p.pdf (555.57 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/11953402/01.02.01_60/ts_11953402v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 534-1",
+      "filename": "TS/ts_11953401v010201p.pdf (774.41 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/11953401/01.02.01_60/ts_11953401v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 530",
+      "filename": "TR/tr_119530v010101p.pdf (258.18 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119500_119599/119530/01.01.01_60/tr_119530v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 524-2",
+      "filename": "TS/ts_11952402v010201p.pdf (435.04 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/11952402/01.02.01_60/ts_11952402v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 524-1",
+      "filename": "TS/ts_11952401v010201p.pdf (545.51 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/11952401/01.02.01_60/ts_11952401v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 520-2",
+      "filename": "TR/tr_11952002v010101p.pdf (95.65 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119500_119599/11952002/01.01.01_60/tr_11952002v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 520-1",
+      "filename": "TR/tr_11952001v010101p.pdf (1.4 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119500_119599/11952001/01.01.01_60/tr_11952001v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 512",
+      "filename": "TS/ts_119512v010201p.pdf (674.26 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.02.01_60/ts_119512v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 511",
+      "filename": "TS/ts_119511v010201p.pdf (587.16 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119500_119599/119511/01.02.01_60/ts_119511v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 500",
+      "filename": "TR/tr_119500v010101p.pdf (88.14 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119500_119599/119500/01.01.01_60/tr_119500v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 479-2",
+      "filename": "TR/tr_11947902v010101p.pdf (294.61 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/11947902/01.01.01_60/tr_11947902v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 478",
+      "filename": "TS/ts_119478v010101p.pdf (683.06 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119478/01.01.01_60/ts_119478v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 476-1",
+      "filename": "TR/tr_11947601v010301p.pdf (2.73 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/11947601/01.03.01_60/tr_11947601v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 476",
+      "filename": "TR/tr_119476v010201p.pdf (2.98 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/119476/01.02.01_60/tr_119476v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 475",
+      "filename": "TS/ts_119475v010201p.pdf (353.52 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119475/01.02.01_60/ts_119475v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 472-3",
+      "filename": "TS/ts_11947203v010101p.pdf (140.44 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947203/01.01.01_60/ts_11947203v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 472-2",
+      "filename": "TS/ts_11947202v010201p.pdf (204.91 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.02.01_60/ts_11947202v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 472-1",
+      "filename": "TS/ts_11947201v010201p.pdf (511.68 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11947201/01.02.01_60/ts_11947201v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 471",
+      "filename": "TS/ts_119471v010101p.pdf (142.74 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119471/01.01.01_60/ts_119471v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 462",
+      "filename": "TR/tr_119462v010101p.pdf (521.62 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/119462/01.01.01_60/tr_119462v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 460",
+      "filename": "TR/tr_119460v010101p.pdf (2.07 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/119460/01.01.01_60/tr_119460v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 441",
+      "filename": "TS/ts_119441v010301p.pdf (278.65 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119441/01.03.01_60/ts_119441v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 432",
+      "filename": "TS/ts_119432v010301p.pdf (1.97 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119432/01.03.01_60/ts_119432v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 431-2",
+      "filename": "TS/ts_11943102v010201p.pdf (190.92 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11943102/01.02.01_60/ts_11943102v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 431-1",
+      "filename": "TS/ts_11943101v010301p.pdf (582.37 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11943101/01.03.01_60/ts_11943101v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 422",
+      "filename": "TS/ts_119422v010001p.pdf (80.59 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119422/01.00.01_60/ts_119422v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 421",
+      "filename": "TS/ts_119421v010001p.pdf (163.5 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119421/01.00.01_60/ts_119421v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 412-6",
+      "filename": "TS/ts_11941206v010201p.pdf (81.24 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11941206/01.02.01_60/ts_11941206v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 412-1",
+      "filename": "TS/ts_11941201v010401p.pdf (90.01 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11941201/01.04.01_60/ts_11941201v010401p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 411-9",
+      "filename": "TR/tr_11941109v010101p.pdf (112.19 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/11941109/01.01.01_60/tr_11941109v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 411-8",
+      "filename": "TS/ts_11941108v010101p.pdf (113.7 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11941108/01.01.01_60/ts_11941108v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 411-6",
+      "filename": "TS/ts_11941106v010101p.pdf (78.79 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11941106/01.01.01_60/ts_11941106v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 411-5",
+      "filename": "TR/tr_11941105v010101p.pdf (71.22 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/11941105/01.01.01_60/tr_11941105v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 411-5",
+      "filename": "TS/ts_11941105v020101p.pdf (102 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11941105/02.01.01_60/ts_11941105v020101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 411-2",
+      "filename": "TS/ts_11941102v020007p.pdf (179.93 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11941102/02.00.07_60/ts_11941102v020007p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 411-1",
+      "filename": "TS/ts_11941101v010001p.pdf (543.56 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11941101/01.00.01_60/ts_11941101v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 404",
+      "filename": "TR/tr_119404v010101p.pdf (124.25 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/119404/01.01.01_60/tr_119404v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 403-3",
+      "filename": "TS/ts_11940303v010101p.pdf (95.3 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11940303/01.01.01_60/ts_11940303v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 403-2",
+      "filename": "TS/ts_11940302v010301p.pdf (68.07 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/11940302/01.03.01_60/ts_11940302v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 403",
+      "filename": "TS/ts_119403v020201p.pdf (119.74 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119403/02.02.01_60/ts_119403v020201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 401",
+      "filename": "TS/ts_119401v020001p.pdf (111.01 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119400_119499/119401/02.00.01_60/ts_119401v020001p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 400",
+      "filename": "TR/tr_119400v010101p.pdf (252.26 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119400_119499/119400/01.01.01_60/tr_119400v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 300",
+      "filename": "TR/tr_119300v010201p.pdf (73.13 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119300_119399/119300/01.02.01_60/tr_119300v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 192",
+      "filename": "TS/ts_119192v010201p.pdf (69.68 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/119192/01.02.01_60/ts_119192v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 182-1",
+      "filename": "TS/ts_11918201v010201p.pdf (385.68 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11918201/01.02.01_60/ts_11918201v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 172-4",
+      "filename": "TS/ts_11917204v010201p.pdf (133.51 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11917204/01.02.01_60/ts_11917204v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 172-3",
+      "filename": "TS/ts_11917203v010101p.pdf (114.1 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11917203/01.01.01_60/ts_11917203v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 172-2",
+      "filename": "TS/ts_11917202v010101p.pdf (166.5 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11917202/01.01.01_60/ts_11917202v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 172-1",
+      "filename": "TS/ts_11917201v010101p.pdf (243.63 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11917201/01.01.01_60/ts_11917201v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 164-5",
+      "filename": "TS/ts_11916405v010101p.pdf (68.74 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11916405/01.01.01_60/ts_11916405v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 164-4",
+      "filename": "TS/ts_11916404v010101p.pdf (61.96 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11916404/01.01.01_60/ts_11916404v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 164-3",
+      "filename": "TS/ts_11916403v010101p.pdf (94.95 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11916403/01.01.01_60/ts_11916403v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 164-2",
+      "filename": "TS/ts_11916402v020101p.pdf (76.96 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11916402/02.01.01_60/ts_11916402v020101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 164-1",
+      "filename": "TR/tr_11916401v010101p.pdf (51.23 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119100_119199/11916401/01.01.01_60/tr_11916401v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 162-2",
+      "filename": "TS/ts_11916202v010001p.pdf (60.36 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11916202/01.00.01_60/ts_11916202v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 162-1",
+      "filename": "TS/ts_11916201v010001p.pdf (670.28 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11916201/01.00.01_60/ts_11916201v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 152-1",
+      "filename": "TS/ts_11915201v010101p.pdf (399.85 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11915201/01.01.01_60/ts_11915201v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 144-5",
+      "filename": "TS/ts_11914405v010101p.pdf (69.28 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11914405/01.01.01_60/ts_11914405v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 144-4",
+      "filename": "TS/ts_11914404v010101p.pdf (64.32 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11914404/01.01.01_60/ts_11914404v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 144-3",
+      "filename": "TS/ts_11914403v010101p.pdf (103.61 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11914403/01.01.01_60/ts_11914403v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 144-2",
+      "filename": "TS/ts_11914402v020101p.pdf (103.5 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11914402/02.01.01_60/ts_11914402v020101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 144-1",
+      "filename": "TR/tr_11914401v010101p.pdf (49.46 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119100_119199/11914401/01.01.01_60/tr_11914401v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 142-3",
+      "filename": "TS/ts_11914203v010101p.pdf (64.33 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11914203/01.01.01_60/ts_11914203v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 142-2",
+      "filename": "TS/ts_11914202v010001p.pdf (353.14 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11914202/01.00.01_60/ts_11914202v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 142-1",
+      "filename": "TS/ts_11914201v010001p.pdf (347.61 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11914201/01.00.01_60/ts_11914201v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 134-5",
+      "filename": "TS/ts_11913405v020101p.pdf (121.19 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11913405/02.01.01_60/ts_11913405v020101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 134-4",
+      "filename": "TS/ts_11913404v010101p.pdf (189.53 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11913404/01.01.01_60/ts_11913404v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 134-3",
+      "filename": "TS/ts_11913403v010101p.pdf (151.37 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11913403/01.01.01_60/ts_11913403v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 134-2",
+      "filename": "TS/ts_11913402v010101p.pdf (122.44 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11913402/01.01.01_60/ts_11913402v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 134-1",
+      "filename": "TR/tr_11913401v010101p.pdf (48.74 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119100_119199/11913401/01.01.01_60/tr_11913401v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 132-3",
+      "filename": "TS/ts_11913203v010101p.pdf (108.49 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11913203/01.01.01_60/ts_11913203v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 132-2",
+      "filename": "TS/ts_11913202v010001p.pdf (125.87 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11913202/01.00.01_60/ts_11913202v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 132-1",
+      "filename": "TS/ts_11913201v010001p.pdf (378.96 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11913201/01.00.01_60/ts_11913201v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 124-5",
+      "filename": "TS/ts_11912405v010101p.pdf (67.62 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11912405/01.01.01_60/ts_11912405v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 124-4",
+      "filename": "TS/ts_11912404v010101p.pdf (102.45 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11912404/01.01.01_60/ts_11912404v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 124-3",
+      "filename": "TS/ts_11912403v010101p.pdf (134.42 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11912403/01.01.01_60/ts_11912403v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 124-2",
+      "filename": "TS/ts_11912402v010101p.pdf (91.89 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11912402/01.01.01_60/ts_11912402v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 124-1",
+      "filename": "TR/tr_11912401v010101p.pdf (52.72 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119100_119199/11912401/01.01.01_60/tr_11912401v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 122-2",
+      "filename": "TS/ts_11912202v010001p.pdf (272.09 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11912202/01.00.01_60/ts_11912202v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 122-1",
+      "filename": "TS/ts_11912201v010001p.pdf (1.5 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11912201/01.00.01_60/ts_11912201v010001p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 112",
+      "filename": "TR/tr_119112v010101p.pdf (110.47 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119100_119199/119112/01.01.01_60/tr_119112v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 102-2",
+      "filename": "TS/ts_11910202v010401p.pdf (453.65 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11910202/01.04.01_60/ts_11910202v010401p.pdf"
+    },
+    {
+      "etsiNumber": "TS 119 102-1",
+      "filename": "TS/ts_11910201v010201p.pdf (821.63 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/119100_119199/11910201/01.02.01_60/ts_11910201v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 100",
+      "filename": "TR/tr_119100v010101p.pdf (3.09 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119100_119199/119100/01.01.01_60/tr_119100v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 119 000",
+      "filename": "TR/tr_119000v010301p.pdf (672.47 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/119000_119099/119000/01.03.01_60/tr_119000v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TR 103 684",
+      "filename": "TR/tr_103684v010101p.pdf (826.85 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/103600_103699/103684/01.01.01_60/tr_103684v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 103 174",
+      "filename": "TS/ts_103174v020201p.pdf (85.14 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 103 123",
+      "filename": "TR/tr_103123v010101p.pdf (174.18 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/103100_103199/103123/01.01.01_60/tr_103123v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 103 090",
+      "filename": "TS/ts_103090v010101p.pdf (93.84 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/103000_103099/103090/01.01.01_60/ts_103090v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 103 071",
+      "filename": "TR/tr_103071v010101p.pdf (508.29 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/103000_103099/103071/01.01.01_60/tr_103071v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 923",
+      "filename": "TR/tr_102923v010101p.pdf (174.25 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102900_102999/102923/01.01.01_60/tr_102923v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 918",
+      "filename": "TS/ts_102918v010301p.pdf (298.3 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102900_102999/102918/01.03.01_60/ts_102918v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 904",
+      "filename": "TS/ts_102904v010101p.pdf (123.27 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102900_102999/102904/01.01.01_60/ts_102904v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 853",
+      "filename": "TS/ts_102853v010201p.pdf (355.46 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102800_102899/102853/01.02.01_60/ts_102853v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 778-6",
+      "filename": "TS/ts_10277806v010101p.pdf (109.42 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/10277806/01.01.01_60/ts_10277806v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 778-5",
+      "filename": "TS/ts_10277805v010102p.pdf (205.04 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/10277805/01.01.02_60/ts_10277805v010102p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 778-4",
+      "filename": "TS/ts_10277804v010102p.pdf (166.18 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/10277804/01.01.02_60/ts_10277804v010102p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 778-3",
+      "filename": "TS/ts_10277803v010201p.pdf (91.16 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/10277803/01.02.01_60/ts_10277803v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 778-2",
+      "filename": "TS/ts_10277802v010201p.pdf (70.84 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/10277802/01.02.01_60/ts_10277802v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 778-1",
+      "filename": "TS/ts_10277801v010101p.pdf (690.04 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 778",
+      "filename": "TS/ts_102778v010101p.pdf (184.5 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/102778/01.01.01_60/ts_102778v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 734",
+      "filename": "TS/ts_102734v010101p.pdf (133.86 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102700_102799/102734/01.01.01_60/ts_102734v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 605",
+      "filename": "TR/tr_102605v010101p.pdf (663.19 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102600_102699/102605/01.01.01_60/tr_102605v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 573",
+      "filename": "TS/ts_102573v020101p.pdf (664.81 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102500_102599/102573/02.01.01_60/ts_102573v020101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 572",
+      "filename": "TR/tr_102572v010101p.pdf (525.67 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102500_102599/102572/01.01.01_60/tr_102572v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 458",
+      "filename": "TR/tr_102458v010101p.pdf (329.3 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102400_102499/102458/01.01.01_60/tr_102458v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 438",
+      "filename": "TR/tr_102438v010101p.pdf (481.61 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102400_102499/102438/01.01.01_60/tr_102438v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 437",
+      "filename": "TR/tr_102437v010101p.pdf (422.53 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102400_102499/102437/01.01.01_60/tr_102437v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 317",
+      "filename": "TR/tr_102317v010101p.pdf (217.89 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102300_102399/102317/01.01.01_60/tr_102317v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 280",
+      "filename": "TS/ts_102280v010101p.pdf (91.5 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102200_102299/102280/01.01.01_60/ts_102280v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 272",
+      "filename": "TR/tr_102272v010101p.pdf (173.04 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102200_102299/102272/01.01.01_60/tr_102272v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 231",
+      "filename": "TS/ts_102231v030102p.pdf (1.17 MB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102200_102299/102231/03.01.02_60/ts_102231v030102p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 176-1",
+      "filename": "TS/ts_10217601v020101p.pdf (421.71 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102100_102199/10217601/02.01.01_60/ts_10217601v020101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 158",
+      "filename": "TS/ts_102158v010101p.pdf (222.99 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102100_102199/102158/01.01.01_60/ts_102158v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 153",
+      "filename": "TR/tr_102153v010101p.pdf (71.92 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102100_102199/102153/01.01.01_60/tr_102153v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 047",
+      "filename": "TR/tr_102047v010201p.pdf (60.04 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102000_102099/102047/01.02.01_60/tr_102047v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 046",
+      "filename": "TR/tr_102046v010201p.pdf (895.76 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102000_102099/102046/01.02.01_60/tr_102046v010201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 045",
+      "filename": "TR/tr_102045v010101p.pdf (439.8 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102000_102099/102045/01.01.01_60/tr_102045v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 044",
+      "filename": "TR/tr_102044v010101p.pdf (239.91 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102000_102099/102044/01.01.01_60/tr_102044v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 042",
+      "filename": "TS/ts_102042v020401p.pdf (245.76 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102000_102099/102042/02.04.01_60/ts_102042v020401p.pdf"
+    },
+    {
+      "etsiNumber": "TR 102 040",
+      "filename": "TR/tr_102040v010301p.pdf (161.12 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/102000_102099/102040/01.03.01_60/tr_102040v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 102 023",
+      "filename": "TS/ts_102023v010202p.pdf (194.79 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/102000_102099/102023/01.02.02_60/ts_102023v010202p.pdf"
+    },
+    {
+      "etsiNumber": "TS 101 903",
+      "filename": "TS/ts_101903v010402p.pdf (542.06 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf"
+    },
+    {
+      "etsiNumber": "TS 101 862",
+      "filename": "TS/ts_101862v010303p.pdf (55.97 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/101800_101899/101862/01.03.03_60/ts_101862v010303p.pdf"
+    },
+    {
+      "etsiNumber": "TS 101 861",
+      "filename": "TS/ts_101861v010401p.pdf (65.58 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/101800_101899/101861/01.04.01_60/ts_101861v010401p.pdf"
+    },
+    {
+      "etsiNumber": "TS 101 733",
+      "filename": "TS/ts_101733v020201p.pdf (852.73 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/101700_101799/101733/02.02.01_60/ts_101733v020201p.pdf"
+    },
+    {
+      "etsiNumber": "TR 101 564",
+      "filename": "TR/tr_101564v010101p.pdf (185.39 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/101500_101599/101564/01.01.01_60/tr_101564v010101p.pdf"
+    },
+    {
+      "etsiNumber": "TR 101 533-2",
+      "filename": "TR/tr_10153302v010301p.pdf (242.65 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_tr/101500_101599/10153302/01.03.01_60/tr_10153302v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 101 533-1",
+      "filename": "TS/ts_10153301v010301p.pdf (396.42 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/101500_101599/10153301/01.03.01_60/ts_10153301v010301p.pdf"
+    },
+    {
+      "etsiNumber": "TS 101 456",
+      "filename": "TS/ts_101456v010403p.pdf (270.57 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_ts/101400_101499/101456/01.04.03_60/ts_101456v010403p.pdf"
+    },
+    {
+      "etsiNumber": "SR 019 510",
+      "filename": "Other/sr_019510v010101p.pdf (966.68 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/019500_019599/019510/01.01.01_60/sr_019510v010101p.pdf"
+    },
+    {
+      "etsiNumber": "SR 019 050",
+      "filename": "Other/sr_019050v010101p.pdf (852.73 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/019000_019099/019050/01.01.01_60/sr_019050v010101p.pdf"
+    },
+    {
+      "etsiNumber": "SR 019 020",
+      "filename": "Other/sr_019020v010102p.pdf (820.59 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/019000_019099/019020/01.01.02_60/sr_019020v010102p.pdf"
+    },
+    {
+      "etsiNumber": "SR 003 232",
+      "filename": "Other/sr_003232v010101p.pdf (83.04 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/003200_003299/003232/01.01.01_60/sr_003232v010101p.pdf"
+    },
+    {
+      "etsiNumber": "SR 003 186",
+      "filename": "Other/sr_003186v020101p.pdf (549.11 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/003100_003199/003186/02.01.01_60/sr_003186v020101p.pdf"
+    },
+    {
+      "etsiNumber": "SR 003 091",
+      "filename": "Other/sr_003091v010102p.pdf (57.07 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/003001_003099/003091/01.01.02_60/sr_003091v010102p.pdf"
+    },
+    {
+      "etsiNumber": "SR 002 176",
+      "filename": "Other/sr_002176v010101p.pdf (158.81 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/002100_002199/002176/01.01.01_60/sr_002176v010101p.pdf"
+    },
+    {
+      "etsiNumber": "SR 001 604",
+      "filename": "Other/sr_001604v010101p.pdf (932.16 KB)",
+      "url": "https://www.etsi.org/deliver/etsi_sr/001600_001699/001604/01.01.01_60/sr_001604v010101p.pdf"
+    },
+    {
+      "etsiNumber": "EN 319 162-1",
+      "filename": "EN/ESI-0019162-1v121v112.zip (72.56 KB)",
+      "url": " https://docbox.etsi.org/esi/esi/70-Drafts/0019162-1v121/ESI-0019162-1v121v112.zip "
+    },
+    {
+      "etsiNumber": "TS 119 322",
+      "filename": "TS/ESI-0019322v131v123.zip (72.55 KB)",
+      "url": " https://docbox.etsi.org/esi/esi/70-Drafts/0019322v131/ESI-0019322v131v123.zip "
+    },
+    {
+      "etsiNumber": "TS 119 312",
+      "filename": "TS/ESI-0019312v211v153.zip (72.55 KB)",
+      "url": " https://docbox.etsi.org/esi/esi/70-Drafts/0019312v211/ESI-0019312v211v153.zip "
+    },
+    {
+      "etsiNumber": "EN 319 142-1",
+      "filename": "EN/ESI-0019142-1v131v123.docx (72.57 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019142-1v131/ESI-0019142-1v131v123.docx"
+    },
+    {
+      "etsiNumber": "TS 119 605",
+      "filename": "TS/ESI-0019605v001.docx (72.53 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019605/ESI-0019605v001.docx"
+    },
+    {
+      "etsiNumber": "TR 119 479-1",
+      "filename": "TR/ESI-0019479-1v005.docx (72.54 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019479-1/ESI-0019479-1v005.docx"
+    },
+    {
+      "etsiNumber": "EN 319 411-1",
+      "filename": "EN/ESI-0019411-1v161v153.docx (72.57 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019411-1v161/ESI-0019411-1v161v153.docx"
+    },
+    {
+      "etsiNumber": "EN 319 182-1",
+      "filename": "EN/ESI-0019182-1v131v122.docx (72.57 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019182-1v131/ESI-0019182-1v131v122.docx"
+    },
+    {
+      "etsiNumber": "EN 319 102-2",
+      "filename": "EN/ESI-0019102-2v151v142.zip (72.56 KB)",
+      "url": " https://docbox.etsi.org/esi/esi/70-Drafts/0019102-2v151/ESI-0019102-2v151v142.zip "
+    },
+    {
+      "etsiNumber": "TS 119 479-2",
+      "filename": "TS/ESI-0019479-2v121v001.docx (72.57 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019479-2v121/ESI-0019479-2v121v001.docx"
+    },
+    {
+      "etsiNumber": "TS 119 411-9",
+      "filename": "TS/ESI-0019411-9v121v001.docx (72.57 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019411-9v121/ESI-0019411-9v121v001.docx"
+    },
+    {
+      "etsiNumber": "TS 119 615",
+      "filename": "TS/ESI-0019615141v133.docx (72.55 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019615141/ESI-0019615141v133.docx"
+    },
+    {
+      "etsiNumber": "TR 119 060",
+      "filename": "TR/ESI-0019060v002.docx (72.54 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/00191020337/ESI-0019060v002.docx"
+    },
+    {
+      "etsiNumber": "TS 119 476-2",
+      "filename": "TS/ESI-0019476-2v001.docx (72.54 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019476-2/ESI-0019476-2v001.docx"
+    },
+    {
+      "etsiNumber": "TS 119 476-3",
+      "filename": "TS/ESI-0019476-3v006.docx (72.54 KB)",
+      "url": "https://docbox.etsi.org/esi/esi/70-Drafts/0019476-3/ESI-0019476-3v006.docx"
+    }
+  ],
+  "failed": [],
+  "noDownload": [
+    {
+      "etsiNumber": "ES 201 862",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "ES 201 861",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "ES 201 456",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 534-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TR 119 477",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 472",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 461",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 432-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 432-2",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 432-1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 412-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TR 119 411-7",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 152",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 101",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TR 119 001",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 103 173",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 103 172",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 103 171",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 669",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-6-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-6-2",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-6-1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-5",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-2",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 640-1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 272",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 176-2",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 102 176",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 101 536",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019142-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019142-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019142-5",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019142-6",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019142-1-old",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019411-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-000001",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019101-old",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019122",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019122-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019132",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019132-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019142-8",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019162",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019162-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019413",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DEN/ESI-0019423",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DMI/ESI-0019103",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DMI/ESI-0019200",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DMI/ESI-0019010",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "MI/ESI-000035",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "MI/ESI-000036",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DSR/ESI-0019002v1.1.1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DSR/ESI-0019003",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTR/ESI-000078",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTR/ESI-0019122-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTR/ESI-0019700",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "RTS/ESI-0019403-2v122",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019602-TSSL-format",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-001194115",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019451",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-00_ETSI nb resa",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-000011",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-000037",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-000053",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-000064",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-000076",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-000077",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-000079",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-00191020301",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-00191020302",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-00191020303",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-00191020304",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019154-old",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019172-2-old",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019172-3-old",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019442v1.1.1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-001953204",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019602stopped",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "RTS/ESI-000114",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "RTS/ESI-00119612329",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 412-5",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 412-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 412-2",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DTS/ESI-0019312v1.4.1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 122-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "EN 319 403-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "EN 319 403-1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "EN 319 172-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "EN 319 102-1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 479-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 479-3",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 495",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "EN 319 401",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "EN 319 152-1",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TR 119 704",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TR 119 411-4",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "TS 119 442",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DMI/ESI-0019201",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DMI/ESI-0019202",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DMI/ESI-0019203",
+      "reason": "No download link found"
+    },
+    {
+      "etsiNumber": "DMI/ESI-0019204",
+      "reason": "No download link found"
+    }
+  ]
+}
