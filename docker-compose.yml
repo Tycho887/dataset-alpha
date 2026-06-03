@@ -5,7 +5,7 @@ services:
     build: .
     container_name: repo_tracker_app
     ports:
-      - "8080:8080"
+      - "9622:8080"
     volumes:
       # Persist the database and cloned repositories on the host machine
       - tracker_data:/app
