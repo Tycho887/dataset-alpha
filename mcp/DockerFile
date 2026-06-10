@@ -1,0 +1,22 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install any system dependencies if required by lightrag_mcp
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install the required packages
+# If a requirements.txt exists, copy and install it. 
+# Otherwise, pip install the specific lightrag package directly.
+RUN pip install --no-cache-dir lightrag_mcp
+
+# Copy the script into the container
+COPY mcp_v0.py .
+
+# Expose the port the proxy listens on
+EXPOSE 8001
+
+# Run the script
+CMD ["python", "mcp_v0.py"]
