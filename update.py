@@ -2,10 +2,9 @@
 import argparse
 import asyncio
 import sqlite3
-# Added DB_PATH to imports
 from lib.db import init_db, DB_PATH
-from lib.util import process_and_register_repository, remove_and_cleanup_repository
-# Import the new processing module functions
+# Updated import
+from lib.util import process_and_register_repository, remove_and_cleanup_repository, process_local_directory
 from lib.processing import process_files_batch
 
 def main() -> None:
@@ -26,8 +25,14 @@ def main() -> None:
         metavar="URL",
         help="Git target clone endpoint URL to remove from database tracking."
     )
+    # New argument added
+    group.add_argument(
+        "--add-directory", 
+        type=str, 
+        metavar="PATH",
+        help="Local directory path representing a pre-cloned Git repository."
+    )
     
-    # New test flag implementation
     parser.add_argument(
         "--test",
         action="store_true",
@@ -39,29 +44,33 @@ def main() -> None:
 
     if args.add_repo:
         print(f"Initiating registration pipeline for: {args.add_repo}")
-        
-        # The repo is processed normally here
         discovered_files = process_and_register_repository(args.add_repo)
         
         if discovered_files:
-            # Intercept and override the payload if the test flag is active
             if args.test:
                 print("Test mode active: Bypassing standard payload and queueing test.txt.")
-                
-                # Note: If process_files_batch expects dictionaries instead of strings 
-                # (similar to the removal logic), this may need to be updated to:
-                # [{"repo_url": args.add_repo, "file_path": "test.txt", "status": "added"}]
                 discovered_files = ["test.txt"]
-                
-            # Trigger the inline processing pipeline asynchronously
             asyncio.run(process_files_batch(discovered_files))
         else:
             print("No valid files found to process during ingestion.")
+
+    # New execution block
+    elif args.add_directory:
+        print(f"Initiating registration pipeline for local directory: {args.add_directory}")
+        discovered_files = process_local_directory(args.add_directory)
+        
+        if discovered_files:
+            if args.test:
+                print("Test mode active: Bypassing standard payload and queueing test.txt.")
+                discovered_files = ["test.txt"]
+            asyncio.run(process_files_batch(discovered_files))
+        else:
+            print("No valid files found to process during local directory ingestion.")
             
     elif args.remove_repo:
+        # Existing removal logic remains unchanged...
         print(f"Initiating removal pipeline for: {args.remove_repo}")
         
-        # 1. Fetch files to delete from LightRAG *before* removing DB records
         files_to_delete = []
         with sqlite3.connect(DB_PATH) as conn:
             cursor = conn.cursor()
@@ -76,14 +85,12 @@ def main() -> None:
                     "status": "deleted"
                 })
 
-        # 2. Trigger the LightRAG deletion pipeline via the processing module
         if files_to_delete:
             print(f"Purging {len(files_to_delete)} files from the LightRAG server...")
             asyncio.run(process_files_batch(files_to_delete))
         else:
             print("No active documents found in the vector database to purge.")
 
-        # 3. Clean up the local SQLite database and display local FS instructions
         remove_and_cleanup_repository(args.remove_repo)
 
 if __name__ == "__main__":

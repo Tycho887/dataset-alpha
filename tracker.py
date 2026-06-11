@@ -10,8 +10,10 @@ import pathlib
 
 # Imported necessary utilities and database operators
 from lib.db import init_db, get_all_repositories, DB_PATH
-from lib.util import process_and_register_repository
+from lib.util import process_and_register_repository, process_local_directory
 from lib.processing import process_files_batch
+# Include process_local_directory in the imports
+
 
 PORT = 8080
 
@@ -35,7 +37,6 @@ class DynamicDashboardHandler(http.server.SimpleHTTPRequestHandler):
         else:
             return super().do_GET()
 
-
 async def check_and_sync_repositories() -> None:
     """
     Iterates through all tracked repositories, checks the remote origins for updates,
@@ -43,7 +44,6 @@ async def check_and_sync_repositories() -> None:
     """
     print(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] Starting periodic synchronization cycle...")
     
-    # 1. Gather all tracked repositories from the database
     repositories = get_all_repositories()
     if not repositories:
         print("No repositories registered for tracking yet.")
@@ -57,29 +57,31 @@ async def check_and_sync_repositories() -> None:
         
         print(f"Checking for updates in: {repo_url}")
         
-        # 2. Safely perform a git fetch and pull to update local file states
+        # Differentiate between managed clones and pre-cloned local directories
+        is_local_directory = repo_url.startswith("file://")
+        
         if local_path.exists():
-            try:
-                import subprocess
-                # Fetch remote references
-                subprocess.run(["git", "fetch"], cwd=str(local_path), check=True, capture_output=True)
-                # Pull changes into the tracking branch
-                subprocess.run(["git", "pull"], cwd=str(local_path), check=True, capture_output=True)
-            except subprocess.SubprocessError as e:
-                print(f"Failed to update git repository at {local_path}: {e}")
-                continue
+            if not is_local_directory:
+                # Safely perform a git fetch and pull for managed clones only
+                try:
+                    import subprocess
+                    subprocess.run(["git", "fetch"], cwd=str(local_path), check=True, capture_output=True)
+                    subprocess.run(["git", "pull"], cwd=str(local_path), check=True, capture_output=True)
+                except subprocess.SubprocessError as e:
+                    print(f"Failed to update git repository at {local_path}: {e}")
+                    continue
+            
+            # Analyze the repository files and calculate structural changes
+            if is_local_directory:
+                discovered_files = process_local_directory(str(local_path))
+            else:
+                discovered_files = process_and_register_repository(repo_url)
 
-        # 3. Analyze the repository files and calculate structural changes
-        # This updates the DB metadata and fills tracked_files with 'changed' statuses
-        discovered_files = process_and_register_repository(repo_url)
-
-        # 4. Filter out files that were actually modified or added
-        # By cross-referencing with the database state updated during process_and_register_repository
+        # Filter out files that were actually modified or added
         with sqlite3.connect(DB_PATH) as conn:
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
             
-            # Fetch files that are explicitly flagged as 'changed' or have never been sent to LightRAG
             cursor.execute("""
                 SELECT file_path, repo_url, status 
                 FROM tracked_files 
@@ -89,7 +91,6 @@ async def check_and_sync_repositories() -> None:
             pending_files = [dict(row) for row in cursor.fetchall()]
             all_changed_files.extend(pending_files)
 
-    # 5. Process all gathered updates via the existing batch pipeline
     if all_changed_files:
         print(f"Detected {len(all_changed_files)} files requiring LightRAG synchronization.")
         await process_files_batch(all_changed_files)

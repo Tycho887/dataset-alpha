@@ -92,6 +92,53 @@ def process_and_register_repository(repo_url: str) -> list:
 
     return discovered_files
 
+def process_local_directory(local_path_str: str) -> list:
+    """Analyzes files in a pre-existing local directory and updates structural tables."""
+    absolute_local_path = str(pathlib.Path(local_path_str).resolve())
+    
+    # Use a file URI as the unique identifier for local repositories
+    repo_url = f"file://{absolute_local_path}"
+
+    git_meta = get_git_metadata(absolute_local_path)
+    
+    file_records = []
+    excluded_extensions = {'.png', '.jpg', '.jpeg', '.pdf', '.lock', '.json', '.git'}
+    
+    for root, dirs, files in os.walk(absolute_local_path):
+        if '.git' in dirs:
+            dirs.remove('.git')
+        for file in files:
+            f_path = pathlib.Path(root) / file
+            if f_path.suffix not in excluded_extensions:
+                file_records.append({
+                    "path": str(f_path.resolve()),
+                    "hash": calculate_file_hash(f_path)
+                })
+
+    repo_meta = {
+        "repo_url": repo_url,
+        "local_path": absolute_local_path,
+        "hash": git_meta["hash"],
+        "file_count": len(file_records),
+        "message": git_meta["message"],
+        "tag": git_meta["tag"]
+    }
+
+    upsert_repository(repo_meta)
+    upsert_tracked_files(repo_url, git_meta["hash"], file_records)
+    print(f"Successfully processed and indexed local directory structure: {absolute_local_path}")
+
+    discovered_files = [
+        {
+            "repo_url": repo_url,
+            "file_path": record["path"],
+            "status": "added"
+        }
+        for record in file_records
+    ]
+
+    return discovered_files
+
 def remove_and_cleanup_repository(repo_url: str) -> bool:
     """
     Orchestrates repository removal by purging database records and 
